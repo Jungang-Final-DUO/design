@@ -6,3 +6,10 @@
 - css는 무조건 파일 따로 만들어서 assets/css 폴더 아래에 위치시키기
 - input 태그안의 name 속성 requestDTO 들의 필드명과 맞추기
 - a 태그의 링크도 @RequestMapping의 URL과 맞추기
+
+## 깃 플로우 전략
+
+1. develop 브랜치에서 자신이 사용할 브랜치를 만든다.
+2. fetch/front/{기능} 과 같이 명명한다.
+3. PR은 develop 브랜치로만 날린다.
+4. PR이 수락되면 기존의 브랜치를 삭제하고 다시 1번을 반복한다. 
