@@ -216,7 +216,7 @@ width: 100%;
 
 
 
-
+/* 회원관리 */
 #main-wrapper #right_menu .bottom_menu .menubar div{
  /* border: 1px solid #ff0000; */ 
 
@@ -227,7 +227,7 @@ width: 100%;
     width: 5%;
 }
 
-#main-wrapper #right_menu .bottom_menu .menubar .id{
+#main-wrapper #right_menu .bottom_menu .menubar .nickname{
     margin-left: 5px;
     width: 20%;
 }
@@ -266,3 +266,35 @@ width: 100%;
     margin-left:40px;
     width: 10%;
 }
+
+/* 게시글관리 */
+
+#main-wrapper #right_menu .bottom_menu .menubar .title{
+    margin-left:20px;
+    width: 40%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .board_write_date{
+    margin-left:20px;
+    width: 10%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .select_count{
+    margin-left:20px;
+    width: 7%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar #delete{
+height: 50%;
+margin-left: 40px;
+background-color: none;
+
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar button{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+
