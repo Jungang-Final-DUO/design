@@ -7,6 +7,7 @@
 - css는 무조건 파일 따로 만들어서 assets/css 폴더 아래에 위치시키기
 - input 태그안의 name 속성 requestDTO 들의 필드명과 맞추기
 - a 태그의 링크도 @RequestMapping의 URL과 맞추기
+- 버튼이나 a 태그 호버시 효과 주고싶으면 btn 클래스 추가하세요
 
 ## 깃 플로우 전략
 
