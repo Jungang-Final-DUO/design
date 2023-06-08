@@ -96,8 +96,8 @@ header {
 }
 
 #my-page-btn-wrapper a {
-    width: 40%;
-    background: #1EA1F7;
+    width: 43%;
+    background: #52C1FF;
     padding: 10px 15px;
     border-radius: 20px;
 
@@ -295,9 +295,8 @@ header {
     background: #fff;
 }
 
-.fixed-btn:hover,
 .fixed-btn:active {
-    background: #b9b9b9;
+    opacity: 0.8;
 }
 
 .fixed-btn > img {
