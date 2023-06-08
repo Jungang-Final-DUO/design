@@ -1,5 +1,3 @@
-@import "common.css";
-
 /* header style */
 header {
     display: flex;
@@ -8,5 +6,240 @@ header {
 }
 
 #logo {
-    width: 100px;
+    width: 150px;
+}
+
+/* navigation bar style */
+#nav-bar {
+    width: 23%;
+    height: 120px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* user navigation bar style */
+#user-nav-bar {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-icon {
+    width: 40px;
+}
+
+.user-icon-wrapper {
+    position: relative;
+
+    display: flex;
+}
+
+#sign-in-modal {
+    position: absolute;
+    top: 100%;
+    right: -65px;
+    margin-top: 30px;
+    padding: 30px;
+
+    height: 300px;
+    background: #fff;
+    border-radius: 14px;
+    border: 2px solid #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+    /* 로그인 모달 안보이게 하고 싶을때 */
+    display: none;
+}
+
+/* 모달 상단의 삼각형 */
+#sign-in-modal:before {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-bottom: 30px solid #fff;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    /* 로그인 버튼 바로 아래에 위치하도록 */
+    position: absolute;
+    top: -27px;
+    right: 64px;
+
+    content: "";
+}
+
+/* sign-in input tag common */
+#sign-in-modal .input-wrapper label {
+    margin-bottom: 5px;
+
+    font-size: 1.2em;
+}
+
+#sign-in-modal .input-wrapper input {
+    width: 270px;
+    height: 25px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+
+    caret-color: #4075FF;
+}
+
+#sign-in-modal .input-wrapper input:focus {
+    background: #fff;
+}
+
+#sign-in-modal .input-wrapper label
+, #sign-in-modal .input-wrapper input {
+    display: block;
+}
+
+/* sns btn wrapper */
+#sns-sign-in-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+
+#sns-sign-in-wrapper div {
+    width: 70px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kakao-wrapper {
+    background: #FFEB3B;
+}
+
+#google-wrapper {
+    height: 42px;
+
+    border: 1px solid #8F8F8F;
+}
+
+#facebook-wrapper {
+    background: #1877F2;
+}
+
+#sns-sign-in-wrapper img {
+    width: 40px;
+}
+
+/* google icon is smaller */
+#sns-sign-in-wrapper #sign-in-google {
+    width: 25px;
+}
+
+/* auto login wrapper */
+#auto-sign-in-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+#sign-in-auto-login {
+    border: none;
+    background: #F2F2F2;
+}
+
+/* sign in submit btn style */
+#sign-in-submit-btn {
+    width: 150px;
+    padding: 5px;
+    background: #52C1FF;
+    color: #fff;
+
+    border-radius: 5px;
+}
+
+/* pw forgot style */
+#pw-forgot-wrapper a {
+    font-size: 0.9em;
+    color: #2E93CC;
+}
+
+/* common navigation bar style */
+#common-nav-bar {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.common-menu-wrapper > a {
+    font-size: 25px;
+    color: #fff;
+}
+
+.common-menu-wrapper > a:hover {
+    font-weight: 600;
+    color: #FFE2B6;
+}
+
+/* ad-wrapper style */
+#ad-wrapper {
+    height: 120px;
+    background: #fff;
+
+    text-align: center;
+    line-height: 120px;
+}
+
+/* fixed-btn-wrapper */
+#fixed-btn-wrapper {
+    position: fixed;
+    right: 280px;
+    bottom: 50px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.fixed-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    background: #fff;
+}
+
+.fixed-btn:hover,
+.fixed-btn:active {
+    background: #b9b9b9;
+}
+
+.fixed-btn > img {
+    width: 40px;
+}
+
+#chatting-btn {
+    margin-top: 10px;
+
+    position: relative;
+}
+
+#unread-chatting-count {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+
+    display: block;
+    background: #FF0000;
+    padding: 2px;
+    border-radius: 5px;
+
+    color: #fff;
 }
