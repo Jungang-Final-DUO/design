@@ -296,5 +296,33 @@ background-color: none;
     background-color: transparent;
 }
 
+/* 신고관리 */
 
 
+
+#main-wrapper #right_menu .bottom_menu .menubar .accuse_no{
+    margin-left: 5px;
+    width: 5%;
+}
+#main-wrapper #right_menu .bottom_menu .menubar .accuse_nickname{
+    margin-left: 10px;
+    width: 15%;
+}
+#main-wrapper #right_menu .bottom_menu .menubar .accuse_title{
+    margin-left:20px;
+    width: 40%;
+}
+#main-wrapper #right_menu .bottom_menu .menubar .accuse_etc{
+    margin-left:20px;
+    width: 40%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .accuse_count{
+    margin-left:20px;
+    width: 10%;
+}
+
+
+.preserve-space {
+    white-space: pre;
+}
