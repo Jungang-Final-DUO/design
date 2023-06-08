@@ -1,0 +1,45 @@
+@import url("common.css");
+
+#main-wrapper{
+    /* border: 1px solid #ffffff; */
+    height: 600px;
+    display: flex;
+}
+
+#main-wrapper .left_container{
+    border: 1px solid #ff0000;
+    height: 600px;
+    width: 5%;
+
+}
+
+#main-wrapper .center_container{
+    /* border: 1px solid #8fd808; */
+    height: 600px;
+    width: 90%;
+
+}
+
+#main-wrapper .center_container #admin_page{
+    /* border: 1px solid #ffffff; */
+    
+}
+#main-wrapper .center_container #admin_page a{
+    margin-left: 90%;
+    /* color: #ffffff; */
+    font-size: 12px;
+}
+
+#main-wrapper .center_container #main_controller{
+    height: 97%;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+
+}
+
+#main-wrapper .right_container{
+    border: 1px solid #6200ff;
+    height: 600px;
+    width: 5%;
+
+}
