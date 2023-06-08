@@ -9,10 +9,14 @@ body {
     font-size: 15px;
     margin: 0;
     padding: 0;
+
+    background-color: #111E30;
 }
 
 #main-wrapper {
     width: 1400px;
+
+    margin: 0 auto;
 }
 
 a {
