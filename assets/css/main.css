@@ -143,19 +143,21 @@ body {
 /* 프로필 카드 1장 */
 .duo-profile {
     border: 1px solid #fff;
+    display: flex;
     padding: 10px;
     width: 335px;
-    height: 230px;
+    height: 220px;
     background: #242F4B;
 }
 
 .duo-profile .profile-left-side{
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     width: 40%;
+    margin-left: 4px;
 }
 
 .profile-frame {
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     width: 100%;
     height: 150px;
     overflow: hidden;
@@ -165,11 +167,31 @@ body {
     width: 100%;
 }
 
-.sns-list {
-    
+.profile-sns {
+    display: flex;
 }
 
-.sns-type {
-    width: 75px;
+.sns-image {
+    width: 30px;
+    margin-top: 12px;
+    margin-right: 3px;
+}
+
+.profile-right-side {
+    border: 1px solid #fff;
+    width: 55%;
+    margin-left: 10px;
+}
+
+.preferred-position {
+    width: 20px;
+}
+
+.user-nickname {
+    width: fit-content;
+}
+
+.rate-point-image {
+    width: 10px;
 }
 
