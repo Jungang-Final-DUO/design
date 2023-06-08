@@ -47,26 +47,35 @@
         </div>
 <!--        티어 검색 라디오 -->
         <div id="searchByTier">
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "UNR"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "IRO"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "BRO"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "SIL"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GOL"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "PLA"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "DIA"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "MAS"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GRA"></label>
-            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "CHA"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "UNR">
+                <img class = "tier-image" src="/assets/img/main/unranked-removebg-preview.png" alt="언랭"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "IRO">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Iron.png" alt="아이언"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "BRO">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Bronze.png" alt="브론즈"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "SIL">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Silver.png" alt="실버"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GOL">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Gold.png" alt="골드"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "PLA">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Platinum.png" alt="플래티넘"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "DIA">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Diamond.png" alt="다이아"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "MAS">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Master.png" alt="마스터"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GRA">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_GrandMaster.png" alt="그랜드마스터"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "CHA">
+                <img class = "tier-image" src="/assets/img/main/TFT_Regalia_Challenger.png" alt="챌린저"></label>
         </div>
 <!--        전체보기, 팔로잉, 정렬 -->
         <div id = "sort-box">
-            <div id = "view-all">전체보기</div>
-            <div id = "view-followings">팔로잉</div>
-            <div id = "sort-by">
-                <label>
-                    <select name = "sort">
-                        <option value = "avgRate">별점순</option>
-                        <option value = "?????">매칭률순</option>
+            <div class = "sortby-menubar" id = "view-all">전체보기</div>
+            <div class = "sortby-menubar" id = "view-followings">팔로잉</div>
+            <div class = "sortby-menubar" id = "sort-by">
+                <label for="order-list"><select id = "order-list" name = "sort">
+                        <option class = "dropdown-list" value = avgRate">별점순</option>
+                        <option class = "dropdown-list" value = "matchingRate">매칭률순</option>
                     </select>
                 </label>
             </div>
@@ -76,19 +85,19 @@
     <div id="profile-cards-wrapper">
 <!--        프로필 카드 한 장 -->
         <div class = "duo-profile">
-            <div class = "profile-right-side">
-                <div class = "profile-image">
-                    <img src="/assets/img/main/profile-image.jpg" alt="프로필 이미지">
+<!--            프로필 카드 좌측 -->
+            <div class = "profile-left-side">
+                <div class = "profile-frame">
+                    <img class = "profile-image" src="/assets/img/main/profile-image.jpg" alt="프로필 이미지">
                 </div>
                 <div class = "profile-sns">
-                    <ul class = "sns-list">
-                        <li class = "instagram"></li>
-                        <li class = "facebook"></li>
-                        <li class = "twitter"></li>
-                    </ul>
+                        <a href="#" class = "sns-type instagram"><img src="/assets/img/" alt="instagram"></a>
+                        <a href="#" class = "sns-type facebook"><img src="/assets/img/" alt="facebook"></a>
+                        <a href="#" class = "sns-type twitter"><img src="/assets/img/" alt="twitter"></a>
                 </div>
             </div>
-            <div class = "profile-left-side">
+<!--            프로필 카드 우측 -->
+            <div class = "profile-right-side">
                 <div class = "position-nickname">
                     <img src="/assets/img/main/MID.png" alt="포지션"><p class = "user-nickname">jhlee0622</p></div>
                 <div class = "rate-point"><img src="/assets/img/main/star.png" alt="rate"><p class = "avg-rate">4.6</p></div>
