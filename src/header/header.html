@@ -12,7 +12,7 @@
 <div id="main-wrapper">
     <header>
         <h1 id="logo-wrapper">
-            <a href="#">
+            <a href="/">
                 <img src="/assets/img/header/logo.png" alt="로고 이미지" id="logo">
             </a>
         </h1>
@@ -43,10 +43,11 @@
                                                                             alt="페이스북 아이콘"></a></div>
                             </div>
                             <div id="auto-sign-in-wrapper">
-                                <input type="checkbox" name="autoLogin" id="sign-in-auto-login">
-                                <label for="sign-in-auto-login">자동 로그인</label>
-                            </div>
-                            <div>
+
+                                <label>
+                                    <input type="checkbox" name="autoLogin" id="sign-in-auto-login">
+                                    자동 로그인
+                                </label>
                                 <button type="submit" id="sign-in-submit-btn" class="btn">로그인</button>
                             </div>
                             <div id="pw-forgot-wrapper">
@@ -56,43 +57,43 @@
                     </form>
                 </div>
                 <div class="user-icon-wrapper">
-                    <a href="#">
+                    <a href="/user/sign-up">
                         <img src="/assets/img/header/sign-up.png" alt="회원가입 아이콘" class="user-icon">
                     </a>
-                </div>
+                </div> <!-- end of sign-in, up page -->
                 <!--        로그인 하면 위의 두 버튼 대신 아래의 버튼이 보입니다        -->
-                <div class="user-icon-wrapper">
-                    <a href="#" id="user-info-btn">
-                        <img src="/assets/img/header/my-page.png" alt="마이 페이지 아이콘" class="user-icon">
-                    </a>
+                <!--                <div class="user-icon-wrapper">-->
+                <!--                    <a href="#" id="user-info-btn">-->
+                <!--                        <img src="/assets/img/header/my-page.png" alt="마이 페이지 아이콘" class="user-icon">-->
+                <!--                    </a>-->
 
-                    <div id="my-page-modal" class="user-modal">
-                        <div id="my-page-header">
-                            <div id="profile-img-wrapper"></div>
-                            <div id="nickname-wrapper">유저 닉네임</div>
-                        </div>
-                        <div id="user-info-wrapper">
-                            <div>
-                                라이엇 계정 : 롤 닉네임
-                            </div>
-                            <div>
-                                잔여 포인트 : 999 point
-                            </div>
-                        </div>
-                        <div id="my-page-btn-wrapper">
-                            <a class="btn" href="#">마이페이지</a>
-                            <a class="btn" href="#">로그아웃</a>
-                        </div>
-                    </div>
-                </div>
+                <!--                    <div id="my-page-modal" class="user-modal">-->
+                <!--                        <div id="my-page-header">-->
+                <!--                            <div id="profile-img-wrapper"></div>-->
+                <!--                            <div id="nickname-wrapper">유저 닉네임</div>-->
+                <!--                        </div>-->
+                <!--                        <div id="user-info-wrapper">-->
+                <!--                            <div>-->
+                <!--                                라이엇 계정 : 롤 닉네임-->
+                <!--                            </div>-->
+                <!--                            <div>-->
+                <!--                                잔여 포인트 : 999 point-->
+                <!--                            </div>-->
+                <!--                        </div>-->
+                <!--                        <div id="my-page-btn-wrapper">-->
+                <!--                            <a class="btn" href="/user/my-page">마이페이지</a>-->
+                <!--                            <a class="btn" href="/user/sign-out">로그아웃</a>-->
+                <!--                        </div>-->
+                <!--                    </div>-->
+                <!--                </div>--> <!-- end of my page -->
             </nav>
 
             <nav id="common-nav-bar">
                 <div class="common-menu-wrapper">
-                    <a href="#">커뮤니티</a>
+                    <a href="/board/list">커뮤니티</a>
                 </div>
                 <div class="common-menu-wrapper">
-                    <a href="#">포인트 충전소</a>
+                    <a href="/ad">포인트 충전소</a>
                 </div>
             </nav>
         </nav>
