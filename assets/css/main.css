@@ -3,7 +3,8 @@ body {
 }
 
 #main-wrapper {
-    height: 95vh;
+    /* FOOTER 붙이고 나서 height 수정 검토 */
+    height: 90vh;
     overflow-y: scroll;
 }
 
@@ -16,6 +17,10 @@ body {
     /*border: 1px solid #fff;*/
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: #111E30;
+    z-index: 2;
 }
 
 /* 검색창 */
@@ -173,7 +178,7 @@ body {
 /* 프로필 카드 영역 */
 #profile-cards-wrapper {
     /*border: 1px solid #fff;*/
-    margin-top: 20px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -191,7 +196,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
     position: relative;
-    margin-left: 20px;
+    margin-left: 16px;
     margin-bottom: 20px;
 }
 
