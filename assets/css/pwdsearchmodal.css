@@ -1,0 +1,121 @@
+@import "common.css";
+
+
+/* 스타일링을 위한 CSS */
+#main-wrapper {
+  position: absolute;
+  width: 442px;
+  height: 365px;
+  left: 33px;
+  top: 41px;
+}
+
+.inner-header {
+  /* display: none;  */
+  position: absolute;
+  width: 497px;
+  height: 665px;
+  left: 703px;
+  top: 208px;
+  
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+h2 {
+
+  position: absolute;
+  width: 389px;
+  height:86px;
+  left: 55px;
+  top: 55px;
+  
+  /* font-family: 'Inter'; */
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  
+  color: #000000;
+}
+
+p {
+  position: absolute;
+  width: 414px;
+  height: 19px;
+  left: 44px;
+  top: 152px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #000000;
+
+
+}
+
+h3 {
+  position: absolute;
+  width: 142px;
+  height: 22px;
+  left: 44px;
+  top: 275px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+.email-text {
+  position: absolute;
+  width: 418px;
+  height: 44px;
+  left: 44px;
+  top: 318px;
+
+  background: #F2F2F2;
+  border-radius: 5px;
+
+}
+
+.email-send {
+  position: absolute;
+  width: 418px;
+  height: 73px;
+  left: 44px;
+  top: 415px;
+
+  background: #DDDFE4;
+}
+
+.login-back {
+  position: absolute;
+  width: 300px;
+  height: 34px;
+  left: 104px;
+  top: 517px;
+
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #1EA1F7;
+
+
+}
