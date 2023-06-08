@@ -42,10 +42,12 @@ header {
 
 /* my page modal style */
 #my-page-modal {
+    right: -40px;
 }
 
 #my-page-modal:before {
     top: -27px;
+    right: 37px;
 }
 
 #my-page-header {
@@ -288,8 +290,8 @@ header {
 }
 
 .fixed-btn {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: 2px solid #000;
     background: #fff;
@@ -300,7 +302,7 @@ header {
 }
 
 .fixed-btn > img {
-    width: 40px;
+    width: 30px;
 }
 
 #chatting-btn {
@@ -311,13 +313,14 @@ header {
 
 #unread-chatting-count {
     position: absolute;
-    top: 2px;
-    right: 2px;
+    top: 1px;
+    right: 1px;
 
     display: block;
     background: #FF0000;
-    padding: 2px;
+    padding: 1px;
     border-radius: 5px;
 
     color: #fff;
+    font-weight: bold;
 }
