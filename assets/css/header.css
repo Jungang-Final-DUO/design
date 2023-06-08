@@ -36,16 +36,36 @@ header {
     position: relative;
 
     display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
-#sign-in-modal {
+/* my page modal style */
+#my-page-modal {
+    width: 300px;
+    height: 300px;
+
+}
+
+#my-page-modal:before {
+    top: -27px;
+}
+
+#profile-img-wrapper {
+    width: 100px;
+    height: 100px;
+
+    background-image: url('https://i.namu.wiki/i/-BO7m4nlr6HAifi1A7oJrs6EFeP4z4gg7mvRy9sKhdDXnw_e0bKn7wo-0shhcAQuL3kvhs5YSeXuyxaMXDh9vjUx5qjK4ONEmonhqmyKHJ3sCLdgDBQI3SCnSlAn1ir7A37bgicvwlBFqyg-s-ouPw.webp');
+    background-size: cover;
+}
+
+/* user modal common */
+.user-modal {
     position: absolute;
     top: 100%;
-    right: -65px;
-    margin-top: 30px;
     padding: 30px;
+    margin-top: 30px;
 
-    height: 300px;
     background: #fff;
     border-radius: 14px;
     border: 2px solid #000;
@@ -54,13 +74,9 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-flow: column;
-
-    /* 로그인 모달 안보이게 하고 싶을때 */
-    display: none;
 }
 
-/* 모달 상단의 삼각형 */
-#sign-in-modal:before {
+.user-modal:before {
     width: 0;
     height: 0;
     display: inline-block;
@@ -68,12 +84,27 @@ header {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
 
-    /* 로그인 버튼 바로 아래에 위치하도록 */
     position: absolute;
-    top: -27px;
-    right: 64px;
 
     content: "";
+}
+
+/* sign in modal */
+
+#sign-in-modal {
+    right: -65px;
+
+    height: 300px;
+
+    /* 로그인 모달 안보이게 하고 싶을때 */
+    display: none;
+}
+
+/* triangle over modal */
+#sign-in-modal:before {
+    /* 로그인 버튼 바로 아래에 위치하도록 */
+    top: -27px;
+    right: 64px;
 }
 
 /* sign-in input tag common */
