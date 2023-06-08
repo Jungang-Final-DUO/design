@@ -1,0 +1,197 @@
+@import url("common.css");
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  *{
+    color: white;
+  }
+
+#main-wrapper {
+    border: 1px solid #000;
+    display: flex;
+    height: 600px;
+
+}
+
+#main-wrapper #left_menu {
+    /* border: 1px solid #ffe600; */
+    width: 30%;
+    height: 100%;
+
+}
+
+#main-wrapper #left_menu .Today_Total {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+
+}
+
+#main-wrapper #left_menu .Today_Total li {
+    width: 10%;
+    /* border: 1px solid #b8fb00; */
+
+}
+
+#main-wrapper #left_menu .menu_box {
+    /* border: 1px solid #00ff2b; */
+    width: 100%;
+    height: 96%;
+   
+}
+
+#main-wrapper #left_menu .menu_box .two_box {
+    display: flex;
+    justify-content: center;
+    height: 32%;
+
+}
+
+#main-wrapper #left_menu .one_box {
+    /* border: 1px solid #440deb; */
+    width: 50%;
+    height: 100%;
+    
+
+}
+
+#main-wrapper #left_menu .one_box_text {
+    border: 1px solid #ffffff;
+    width: 90%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+}
+
+#main-wrapper #left_menu .one_box_text li{
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+#main-wrapper #left_menu .one_box_text .pic{
+    border: 1px solid #000;
+    height: 35%;
+    margin-top: 10%;
+}
+
+#main-wrapper #left_menu .one_box_text .sign_mem{
+    border: 1px solid #000;
+    height: 20%;
+    font-size:10px;
+}
+
+#main-wrapper #left_menu .one_box_text .mem_count{
+    border: 1px solid #000;
+    height: 25%;
+    font-size: 25px;
+    
+}
+
+
+/* 우측메뉴 */
+#main-wrapper #right_menu {
+    /* border: 1px solid #712828; */
+    width: 65%;
+    margin-left: 5%;
+    
+
+
+}
+
+#main-wrapper #right_menu .top_menu{
+    /* border: 1px solid #000; */
+    display: flex;
+
+}
+
+#main-wrapper #right_menu .top_menu .search{
+ display: flex;
+ 
+}
+
+
+#main-wrapper #right_menu .top_menu .admin_board{
+    /* border: 1px solid #000; */
+    width: 20%;
+    display: flex;
+    margin-left: 550px;   
+}
+#main-wrapper #right_menu .top_menu .admin_board li:last-child{
+    margin-left: 60px;
+}
+
+#main-wrapper #right_menu .bottom_menu{
+ /* border: 1px solid #8a0bde;  */
+ height: 92%;
+ width: 100%;  
+ 
+ 
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar{
+ display: flex;
+height: 9%;
+border-bottom:rgb(255, 255, 255) 1px solid;
+align-items: center;
+width: 100%;
+
+
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar div{
+ /* border: 1px solid #ff0000; */
+ 
+
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .no{
+    margin-left: 5px;
+    width: 5%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .id{
+    margin-left: 5px;
+    width: 25%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .gender{
+    margin-left: 5px;
+    width: 5%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .board_count{
+    margin-left: 5px;
+    width: 12%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .reply_count{
+    margin-left: 5px;
+    width: 10%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .warn_count{
+    margin-left: 5px;
+    width: 8%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .point{
+    margin-left: 5px;
+    width: 7%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .follow{
+    margin-left: 5px;
+    width: 7%;
+}
+
+#main-wrapper #right_menu .bottom_menu .menubar .sign_date{
+    margin-left:30px;
+    width: 13%;
+}
