@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/assets/img/main/simple-favicon-navy.png">
+</head>
+<body>
+
+<div id="main-wrapper">
+
+<!--    프로필 카드 상단 검색 조건 메뉴바 -->
+    <div id="search-bar">
+<!--        인풋 닉네임 검색 -->
+        <label><input type="text" id="searchBy-nickname" placeholder="듀오 검색하기" name="keyword"></label>
+<!--        포지션 검색 라디오 -->
+        <div id="searchBy-position">
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "">
+                <img class = "position-image" src="/assets/img/main/ALL.png" alt="ALL">
+            </label>
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "TOP">
+                <img class = "position-image" src="/assets/img/main/TOP.png" alt="TOP"></label>
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "JGL">
+                <img class = "position-image" src="/assets/img/main/JGL.png" alt="JGL"></label>
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "MID">
+                <img class = "position-image" src="/assets/img/main/MID.png" alt="MID"></label>
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "AD">
+                <img class = "position-image" src="/assets/img/main/AD.png" alt="AD"></label>
+            <label class = "position-option">
+                <input class = "select-position" type="radio" name="position" value = "SUP">
+                <img class = "position-image" src="/assets/img/main/SUP.png" alt="SUP"></label>
+        </div>
+<!--        성별 검색 라디오 -->
+        <div id="searchBy-gender">
+            <label class = "gender-option"><input class = "select-gender" type = "radio" name = "gender" value = "M">남</label>
+            <label class = "gender-option"><input class = "select-gender" type = "radio" name = "gender" value = "F">여</label>
+        </div>
+<!--        티어 검색 라디오 -->
+        <div id="searchByTier">
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "UNR"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "IRO"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "BRO"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "SIL"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GOL"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "PLA"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "DIA"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "MAS"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "GRA"></label>
+            <label class="tier-option"><input class="select-tier" type="radio" name = "tier" value = "CHA"></label>
+        </div>
+<!--        전체보기, 팔로잉, 정렬 -->
+        <div id = "sort-box">
+            <div id = "view-all">전체보기</div>
+            <div id = "view-followings">팔로잉</div>
+            <div id = "sort-by">
+                <label>
+                    <select name = "sort">
+                        <option value = "avgRate">별점순</option>
+                        <option value = "?????">매칭률순</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+    </div>
+<!--    프로필카드 리스트 영역 -->
+    <div id="profile-cards-wrapper">
+<!--        프로필 카드 한 장 -->
+        <div class = "duo-profile">
+            <div class = "profile-right-side">
+                <div class = "profile-image">
+                    <img src="/assets/img/main/profile-image.jpg" alt="프로필 이미지">
+                </div>
+                <div class = "profile-sns">
+                    <ul class = "sns-list">
+                        <li class = "instagram"></li>
+                        <li class = "facebook"></li>
+                        <li class = "twitter"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "profile-left-side">
+                <div class = "position-nickname">
+                    <img src="/assets/img/main/MID.png" alt="포지션"><p class = "user-nickname">jhlee0622</p></div>
+                <div class = "rate-point"><img src="/assets/img/main/star.png" alt="rate"><p class = "avg-rate">4.6</p></div>
+                <div class = "profile-comment"></div>
+                <div class = "profile-most-champ">
+                    <ul class = "champ-list">
+                        <li class = "first-champ"></li>
+                        <li class = "second-champ"></li>
+                        <li class = "third-champ"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
