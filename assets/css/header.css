@@ -166,7 +166,7 @@ header {
 
 #sign-in-modal .input-wrapper input {
     width: 270px;
-    height: 25px;
+    height: 30px;
     background: #F2F2F2;
     border-radius: 5px;
     border: none;
@@ -186,14 +186,14 @@ header {
 /* sns btn wrapper */
 #sns-sign-in-wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
     width: 100%;
 }
 
 #sns-sign-in-wrapper div {
-    width: 70px;
+    width: 32px;
     border-radius: 5px;
 
     display: flex;
@@ -206,7 +206,7 @@ header {
 }
 
 #google-wrapper {
-    height: 42px;
+    height: 32px;
 
     border: 1px solid #8F8F8F;
 }
@@ -216,18 +216,21 @@ header {
 }
 
 #sns-sign-in-wrapper img {
-    width: 40px;
+    width: 30px;
 }
 
 /* google icon is smaller */
 #sns-sign-in-wrapper #sign-in-google {
-    width: 25px;
+    width: 20px;
 }
 
 /* auto login wrapper */
 #auto-sign-in-wrapper {
+    width: 100%;
+
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 #sign-in-auto-login {
@@ -237,7 +240,7 @@ header {
 
 /* sign in submit btn style */
 #sign-in-submit-btn {
-    width: 150px;
+    width: 100px;
     padding: 5px;
     background: #52C1FF;
     color: #fff;
