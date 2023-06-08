@@ -69,11 +69,23 @@
     
 }
 
+#main-wrapper #left_menu .one_box_text:hover{
+    opacity: 0.8;
+    background-color: rgb(126, 126, 241);
+}
+
+
 #main-wrapper #left_menu .one_box_text li{
     width: 60%;
     margin-left: 20%;
     text-align: center;
     
+}
+#main-wrapper #left_menu .one_box_text .pic #sign{
+    width: 70px;
+}
+#main-wrapper #left_menu .one_box_text .accuse{
+    padding-top: 10px;
 }
 
 #main-wrapper #left_menu .one_box_text .pic{
@@ -84,8 +96,12 @@
 }
 
 #main-wrapper #left_menu .one_box_text .pic .admin_img{
-    width: 100%;
+    width: 55%;
     height: 65px;
+}
+
+#main-wrapper #left_menu .one_box_text #member{
+    width: 100%;
 }
 
 #main-wrapper #left_menu .one_box_text .admin_category{
@@ -93,7 +109,7 @@
     font-size:12px;
     text-align: center;
     padding-top: 15px;
-;
+    
 }
 
 #main-wrapper #left_menu .one_box_text .mem_count{
@@ -132,12 +148,18 @@ border-radius: 5%;
 #main-wrapper #right_menu .top_menu .search input{
     background-color: #111E30;
     border: none;
+    
 }
+#main-wrapper #right_menu .top_menu .search input:focus{
+    outline: none;
+}
+
 
 #main-wrapper #right_menu .top_menu .search button{
     background-color: #111E30;
     border: none;
     outline: none;
+    cursor: pointer;
     
 }
 #main-wrapper #right_menu .top_menu .search img{
