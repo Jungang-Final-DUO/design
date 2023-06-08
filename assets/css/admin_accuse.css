@@ -1,0 +1,18 @@
+@import url("common.css");
+
+#main-wrapper{
+    /* border: 1px solid #ffffff; */
+    height: 600px;
+    margin-top: 30px;
+    border: 1px solid #000;
+
+}
+
+.container{
+    border:  solid #000;
+    width: 70%;
+    height: 80%;
+    margin-top: 4%;
+    margin-left: 15%;
+
+}
