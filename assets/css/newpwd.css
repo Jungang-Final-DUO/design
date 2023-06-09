@@ -1,0 +1,188 @@
+@import "common.css";
+
+
+.newpwd-header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 773px;
+    height: 641px;
+    left: 573px;
+    top: 220px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+h2 {
+    position: absolute;
+    width: 389px;
+    height: 66px;
+    left: 48px;
+    top: 62px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+
+
+}
+
+
+.certify-email {
+
+    position: absolute;
+    width: 711px;
+    height: 96px;
+    left: 45px;
+    top: 163px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+
+}
+
+.certify-number {
+
+    position: absolute;
+    width: 629px;
+    height: 71px;
+    left: 48px;
+    top: 268px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+.cerity {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 599px;
+    height: 44px;
+    left: 48px;
+    top: 359px;
+
+
+}
+
+
+.certify-text {
+    /* Auto layout */
+    width: 324px;
+    height: 31px;
+
+    background: #F2F2F2;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
+
+.certify-check {
+
+    width: 195px;
+    height: 33px;
+    color: #FFFFFF;
+    background: #1EA1F7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.font{
+    position: absolute;
+    width: 198px;
+    height: 30px;
+    left: 420px;
+    top: 4px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+}
+
+h3 {
+    position: absolute;
+    width: 126px;
+    height: 29px;
+    left: 48px;
+    top: 431px;
+    
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+
+.return-email {
+
+    position: absolute;
+    width: 303px;
+    height: 29px;
+    left: 215px;
+    top: 554px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.resend-email {
+
+
+    position: absolute;
+    width: 303px;
+    height: 29px;
+    left: 447px;
+    top: 554px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #1EA1F7;
+
+}

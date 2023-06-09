@@ -1,0 +1,38 @@
+@import "common.css";
+
+.footer {
+
+    position: absolute;
+    width: 865px;
+    height: 47px;
+    left: 577px;
+    top: 587px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+
+.footer-company {
+
+    position: absolute;
+    width: 422px;
+    height: 45px;
+    left: 794px;
+    top: 647px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 153px;
+    height: 153px;
+    left: 883px;
+    top: 84px;
+    
+}
