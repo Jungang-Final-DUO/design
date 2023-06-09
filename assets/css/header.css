@@ -124,6 +124,9 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-flow: column;
+
+    /* 모달 창 전부 사라지게 */
+    /*display: none;*/
 }
 
 .user-modal:before {
