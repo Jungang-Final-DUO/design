@@ -26,6 +26,16 @@ header h2 {
 }
 
 /* sign-up wrapper style */
-
+#sign-up-wrapper {
+    display: flex;
+}
 
 /* profile image section style */
+#profile-img-section {
+    display: flex;
+    align-items: center;
+}
+
+#main-profile-img-wrapper img {
+
+}
