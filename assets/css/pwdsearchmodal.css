@@ -3,6 +3,8 @@
 
 /* 스타일링을 위한 CSS */
 #main-wrapper {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 442px;
   height: 365px;
@@ -30,8 +32,8 @@ h2 {
   left: 55px;
   top: 55px;
   
-  /* font-family: 'Inter'; */
-  font-style: italic;
+  /* font-family: 'Inter';
+  font-style: italic; */
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
@@ -45,9 +47,9 @@ p {
   height: 19px;
   left: 44px;
   top: 152px;
-
+/* 
   font-family: 'Inter';
-  font-style: italic;
+  font-style: italic; */
   font-weight: 700;
   font-size: 22px;
   line-height: 29px;
@@ -64,8 +66,8 @@ h3 {
   left: 44px;
   top: 275px;
 
-  font-family: 'Inter';
-  font-style: italic;
+  /* font-family: 'Inter';
+  font-style: italic; */
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -82,8 +84,9 @@ h3 {
   height: 44px;
   left: 44px;
   top: 318px;
-
+  outline: none;
   background: #F2F2F2;
+  border: none;
   border-radius: 5px;
 
 }
@@ -94,7 +97,8 @@ h3 {
   height: 73px;
   left: 44px;
   top: 415px;
-
+  font-size: 40px;
+  color: #FFFFFF;
   background: #DDDFE4;
 }
 
@@ -102,13 +106,13 @@ h3 {
   position: absolute;
   width: 300px;
   height: 34px;
-  left: 104px;
+  left: 174px;
   top: 517px;
 
-  font-family: 'Inter';
-  font-style: italic;
+
+  /* font-style: italic; */
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   display: flex;
   align-items: center;
