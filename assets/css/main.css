@@ -1,15 +1,22 @@
-body {
-    color: white;
+@import "common.css";
+
+/*body {*/
+/*    color: white;*/
+/*}*/
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #main-wrapper {
+    color: white;
     /* FOOTER 붙이고 나서 height 수정 검토 */
-    height: 90vh;
-    overflow-y: scroll;
-}
+/*    height: 90vh;*/
+/*    overflow-y: scroll;*/
+/*}*/
 
-#main-wrapper::-webkit-scrollbar {
-    display: none;
+/*#main-wrapper::-webkit-scrollbar {*/
+/*    display: none;*/
 }
 
 /* 모든 검색 조건 묶어놓은 메뉴바 */
@@ -19,6 +26,7 @@ body {
     align-items: center;
     padding-bottom: 10px;
     position: fixed;
+    top: 0;
     background-color: #111E30;
     z-index: 2;
 }
