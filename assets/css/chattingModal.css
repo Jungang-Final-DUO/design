@@ -3,12 +3,7 @@
 /* 채팅방 모달 띄우는 css */
 
 /* 모달 뒷배경 블러처리 */
-.show-modal {
-    display: block;
-}
-.show-chatting-modal {
-    display: block;
-}
+
 
 /* 모달 뒷배경 css */
 .modal-background {
@@ -18,12 +13,17 @@
     opacity: 50%;
     z-index: 100;
     position: absolute;
+    display: none;
+}
+.modal-background.show-modal {
+    display: block;
 }
 
 /* 채팅목록 모달 css */
 .chatting-modal-wrapper {
     width: 400px;
     height: 550px;
+    display: none;
     position: absolute;
     background: #fff;
     /* border: 2px solid #ff0c0c; */
@@ -32,6 +32,9 @@
     z-index: 500;
 
     padding: 20px 15px 15px 0px;
+}
+.chatting-modal-wrapper.show-chatting-modal {
+    display: block;
 }
 
 .chatting-card {
@@ -86,7 +89,7 @@
     margin-bottom: 15px;
 }
 .chatting-card-inner .chatting-current-message {
-    font-size: 13px;
+    font-size: 1px;
     opacity: 70%;
 }
 .chatting-card-inner .chatting-unread {
