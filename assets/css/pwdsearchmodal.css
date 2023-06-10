@@ -88,8 +88,18 @@ h3 {
   background: #F2F2F2;
   border: none;
   border-radius: 5px;
-
+  
 }
+
+.email-text:focus{
+  border: 2px solid black; /* 포커스된 입력창에 파란색 테두리 추가 */
+  background: #FFFFFF; /* 포커스된 입력창 배경색 변경 */
+}
+
+/* .email-text:hover{
+  background-color: #CCCCCC;
+  color: #FFFFFF;
+} */
 
 .email-send {
   position: absolute;
@@ -102,6 +112,10 @@ h3 {
   background: #DDDFE4;
 }
 
+.email-send:hover{
+  background-color:#F2F2F2 ;
+  color: #FFFFFF;
+}
 .login-back {
   position: absolute;
   width: 300px;
@@ -122,4 +136,8 @@ h3 {
   color: #1EA1F7;
 
 
+}
+.login-back:hover{
+
+  color: #1ea0f77c;
 }
