@@ -1,22 +1,11 @@
 @import "common.css";
 
-/*body {*/
-/*    color: white;*/
-/*}*/
+body {
+    color: white;
+}
 
 body::-webkit-scrollbar {
     display: none;
-}
-
-#main-wrapper {
-    color: white;
-    /* FOOTER 붙이고 나서 height 수정 검토 */
-/*    height: 90vh;*/
-/*    overflow-y: scroll;*/
-/*}*/
-
-/*#main-wrapper::-webkit-scrollbar {*/
-/*    display: none;*/
 }
 
 /* 모든 검색 조건 묶어놓은 메뉴바 */
