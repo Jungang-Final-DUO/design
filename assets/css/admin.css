@@ -148,6 +148,7 @@ border-radius: 5%;
 #main-wrapper #right_menu .top_menu .search input{
     background-color: #111E30;
     border: none;
+    width: 250px;
     
 }
 #main-wrapper #right_menu .top_menu .search input:focus{
@@ -160,12 +161,13 @@ border-radius: 5%;
     border: none;
     outline: none;
     cursor: pointer;
+    width: 35px;
+    border: 1px solid #000;
     
 }
 #main-wrapper #right_menu .top_menu .search img{
     width: 25px;
     height: 25px;
-    margin-left: 80px;
     padding: 3px;
 }
 
@@ -285,9 +287,11 @@ width: 100%;
 }
 
 #main-wrapper #right_menu .bottom_menu .menubar #delete{
-height: 50%;
+height: 60%;
 margin-left: 40px;
+padding-top: 7px;
 background-color: none;
+border: 1px solid #000;
 
 }
 
