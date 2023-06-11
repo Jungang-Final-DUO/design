@@ -30,6 +30,10 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+#register-duo-profile {
+    font-weight: 700;
+}
+
 /* 우측 콘텐츠 영역 */
 #my-page-content {
     color: white;

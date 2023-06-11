@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/mypage-attendance.css">
+    <!--    <link rel="icon" href="/assets/img/main/simple-favicon-navy.png">-->
+</head>
+<body>
+
+<div id="main-wrapper">
+    <!--    마이페이지 좌측 메뉴바 영역 -->
+    <div id="my-page-sidebar">
+        <div id="my-page-menu-list">
+            <p class="my-page-menu">듀오 프로필 등록 / 수정</p>
+            <p id = "mypage-calendar" class="my-page-menu">출석 체크</p>
+            <p class="my-page-menu">내 정보 확인 / 변경</p>
+            <p class="my-page-menu">비밀번호 변경</p>
+        </div>
+    </div>
+
+    <!-- 이 아래에 div 태그 열어서 width: 80% 으로 주기 -->
+    <!--    마이페이지 우측 콘텐츠 영역 -->
+    <div id="my-page-content">
+        <div id="calendar-wrapper">
+            <div id="attendance-calendar">
+                <div id="calendar-title">
+                    <div id="now-month-box"><span id="now-month"></span>월</div>
+                    <div id="add-attendance"><img id="add-attendance-image" src="/assets/img/mypage/add-attend.png"
+                                                  alt="출석하기">출석하기
+                    </div>
+                </div>
+                <!--           시작 - 요일 출력 hard-coding -->
+                <div id="days-box">
+                    <div id="sun" class="days my-calendar">일</div>
+                    <div id="mon" class="days my-calendar">월</div>
+                    <div id="tue" class="days my-calendar">화</div>
+                    <div id="wed" class="days my-calendar">수</div>
+                    <div id="thu" class="days my-calendar">목</div>
+                    <div id="fri" class="days my-calendar">금</div>
+                    <div id="sat" class="days my-calendar">토</div>
+                </div>
+                <!--           끝 - 요일 출력 hard-coding -->
+                <!--        시작 - 날짜 출력 -->
+                <div id="dates" class="date my-calendar"></div>
+                <!--        끝 - 날짜 출력 -->
+            </div>
+            <div id="stamp-status">
+                <div id="my-current-stamp"><img id = "my-current-stamp-image" src="/assets/img/mypage/leaf.png" alt="leaf">&nbsp;이달의 스탬프&nbsp;<span>3&nbsp;</span>개</div>
+                <div id="stamp-type-box">
+                    <div class="stamp-type"><p>출석스탬프<span>7</span>개</p>
+                        <div id="1" class = "get-point">100 Point</div>
+                    </div>
+                    <div class="stamp-type"><p>출석스탬프<span>14</span>개</p>
+                        <div id="2" class = "get-point">200 Point</div>
+                    </div>
+                    <div class="stamp-type"><p>출석스탬프<span>21</span>개</p>
+                        <div id="3" class = "get-point">300 Point</div>
+                    </div>
+                    <div class="stamp-type"><p>출석스탬프<span>28</span>개</p>
+                        <div id="4" class = "gotten">지급완료</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/mypage-attendance.js"></script>
+</body>
+</html>
