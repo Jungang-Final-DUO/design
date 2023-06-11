@@ -300,6 +300,14 @@ margin-top: 25px;
 #main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info #right_info .second_info_ul div .margin {
 margin-left: 10px;
 }
+
+#main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
 #main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info .payment{
     color: white;    
     height: 10%;
