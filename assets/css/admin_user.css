@@ -109,6 +109,9 @@
     color: #000;
 }
 
+#main-wrapper .center_container #main_controller #user_pic_container .cursor{
+    cursor: pointer;
+}
 
 #main-wrapper .center_container #main_controller #user_pic_container .profile{
     /* border: 1px solid #88ff00; */
@@ -138,7 +141,6 @@
     opacity: 1;
     width: 80%;
     height: 80%;
-    cursor: pointer;
     
 }
 
@@ -171,7 +173,6 @@ justify-content: center;
 opacity: 1;
 width: 80%;
 height: 80%;
-cursor: pointer;
 }
 
 #main-wrapper .center_container #main_controller #user_pic_container .bottom_profile .profile2 .hover-img{
@@ -183,6 +184,8 @@ cursor: pointer;
     transform: translate(-50%, -50%);
     
 }
+
+
 
 
 #main-wrapper .center_container #main_controller #user_pic_container .bottom_profile .profile2 img{
