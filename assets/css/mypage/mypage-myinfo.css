@@ -150,6 +150,10 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+#my-info-btn {
+    margin-right: 0;
+}
+
 .my-info-btn:hover {
     background: rgba(255, 255, 255, 0.1);
 }
