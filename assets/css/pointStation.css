@@ -72,6 +72,10 @@
     border-radius: 20px;
 }
 
+.before-mission:hover {
+    background-color: #3c4c62;
+}
+
 /* 광고목록 카드 자식 태그들 inline */
 .pointStation-ad-card img {
     display: inline-block;
