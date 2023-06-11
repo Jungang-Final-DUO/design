@@ -47,11 +47,11 @@ body::-webkit-scrollbar {
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    justify-content: space-between;
 }
 
 #profile-box {
     width: 20%;
+    margin-right: 80px;
 }
 
 .myinfo-title {
@@ -66,6 +66,13 @@ body::-webkit-scrollbar {
 }
 #main-profile-image {
     width: 200px;
+    cursor: pointer;
+}
+
+#add-profile {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* 프로필사진 제외 영역 */
@@ -79,7 +86,8 @@ body::-webkit-scrollbar {
 }
 
 /* 박스 타이틀 */
-#my-info-title {
+.myinfo-title {
+    font-size: 20px;
     width: 100%;
 }
 
