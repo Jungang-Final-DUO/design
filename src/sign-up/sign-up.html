@@ -13,8 +13,8 @@
 <div id="main-wrapper">
     <header>
         <h1>
-            <a href="#">
-                <img src="/assets/img/header/logo.png" alt="로고 이미지">
+            <a href="/">
+                <img src="/assets/img/sign-up/logo.png" alt="로고 이미지">
             </a>
         </h1>
         <h2>회원가입</h2>
@@ -23,20 +23,109 @@
         <div id="sign-up-wrapper">
             <section id="profile-img-section">
                 <h2>프로필 사진</h2>
-                <div id="main-profile-img-wrapper">
-                    <img src="https://i.namu.wiki/i/-BO7m4nlr6HAifi1A7oJrs6EFeP4z4gg7mvRy9sKhdDXnw_e0bKn7wo-0shhcAQuL3kvhs5YSeXuyxaMXDh9vjUx5qjK4ONEmonhqmyKHJ3sCLdgDBQI3SCnSlAn1ir7A37bgicvwlBFqyg-s-ouPw.webp" alt="프로필 사진 1">
+                <div id="main-profile-img-wrapper" class="img-wrapper btn">
+                    <input type="file" style="display: none" name="profileImages">
                 </div>
                 <div id="sub-profile-img-wrapper">
-                    <div id="sub-img-1"><img src="" alt=""></div>
-                    <div id="sub-img-2"><img src="" alt=""></div>
-                    <div id="sub-img-3"><img src="" alt=""></div>
+                    <div class="img-wrapper btn">
+                        <input type="file" style="display: none" name="profileImages">
+                    </div>
+                    <div class="img-wrapper btn">
+                        <input type="file" style="display: none" name="profileImages">
+                    </div>
+                    <div class="img-wrapper btn"
+                         style="background-image: url('/assets/img/sign-up/default-profile-img.png');">
+                        <input type="file" style="display: none" name="profileImages">
+                    </div>
                 </div>
             </section>
             <div id="sign-up-request-info-wrapper">
+                <div id="sign-up-request-input-wrapper">
+                    <label for="user-nickname">닉네임</label>
+                    <input type="text" id="user-nickname" name="userNickname">
 
+                    <label>
+                        <select name="userGender" id="user-gender" class="btn">
+                            <option value="none">성별</option>
+                            <option value="M">남자</option>
+                            <option value="F">여자</option>
+                        </select>
+                    </label>
+
+                    <label for="user-email">이메일</label>
+                    <input type="text" id="user-email" name="userNickname">
+
+                    <button class="btn">인증</button>
+
+                    <label for="user-password">비밀번호</label>
+                    <input type="password" id="user-password" name="userPassword">
+                    <div></div>
+
+                    <label for="user-password-check">비밀번호 확인</label>
+                    <input type="password" id="user-password-check">
+                    <div></div>
+
+                    <label for="user-birthday">생년월일</label>
+                    <input type="date" id="user-birthday" name="userBirthday">
+                    <div></div>
+
+                    <label for="lol-nickname">롤계정</label>
+                    <input type="text" id="lol-nickname" name="lolNickname">
+                    <div></div>
+
+<!--                     빈칸 -->
+                    <div class="space"></div>
+                    <div></div>
+                    <div></div>
+<!--                     빈칸 끝 -->
+
+<!--                    sns 계정 기입란-->
+                    <div>SNS</div>
+                    <div class="sns-input-wrapper">
+                        <label for="instagram"><img src="/assets/img/main/instagram.png" alt=""></label>
+                        <input type="text" id="instagram" name="userInstagram" placeholder="sns id를 입력하세요">
+                    </div>
+                    <div></div>
+
+                    <div></div>
+                    <div class="sns-input-wrapper">
+                        <label for="facebook"><img src="/assets/img/main/facebook.png" alt=""></label>
+                        <input type="text" id="facebook" name="userFacebook" placeholder="sns id를 입력하세요">
+                    </div>
+                    <div></div>
+
+                    <div></div>
+                    <div class="sns-input-wrapper">
+                        <label for="twitter"><img src="/assets/img/main/twitter.png" alt=""></label>
+                        <input type="text" id="twitter" name="userTwitter" placeholder="sns id를 입력하세요">
+                    </div>
+                    <div></div>
+                </div>
+                <div id="submit-btn-wrapper">
+                    <button type="submit" class="btn">
+                        회원가입
+                    </button>
+                </div>
             </div>
         </div>
     </form>
+
+    <div id="email-confirm-modal">
+        <div>
+            인증 이메일이 발송되었습니다.<br>
+            이메일 확인 후 인증번호를 입력해주세요.
+        </div>
+
+        <div>
+            <label for="confirm-code">인증번호</label>
+            <input type="text" id="confirm-code" placeholder="남은 시간 03:00">
+            <button class="btn">확인</button>
+        </div>
+
+        <div>
+            <button class="btn">이메일 재전송</button>
+        </div>
+    </div>
 </div>
 
 </body>
