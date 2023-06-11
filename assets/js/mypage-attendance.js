@@ -9,7 +9,7 @@ function getMyCalendar() {
 //마지막 날짜 구하기
     const lastDate = new Date(year, month, 0).getDate();
 
-    const startDate = now.getMonth();
+//이번달 출력
     document.getElementById('now-month').innerText = month.toString();
 
 // 달력 렌더링
