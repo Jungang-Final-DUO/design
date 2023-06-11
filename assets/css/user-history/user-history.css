@@ -86,15 +86,26 @@
     font-size: 0.8em;
 }
 
+/* ranking info style */
+#ranking-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+#ranking-info-wrapper > div {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 40px 40px 20px;
+    background: #304373;
+    border-radius: 28px;
+}
+
 /* ranking and win rate style */
 #ranking-win-rate-wrapper {
-    display: flex;
-
-    padding: 40px;
     width: 40%;
-    background: #304373;
-    margin-top: 40px;
-    border-radius: 28px;
 
     font-size: 2em;
 }
@@ -116,12 +127,43 @@
     justify-content: space-evenly;
 
     font-size: 0.8em;
+    color: #B1B1B1;
+
+    width: 50%;
 }
 
+#rank-point-info-wrapper span:first-child {
+    font-size: 1.2em;
+    color: #fff;
+}
 
-
-#rank-info-wrapper
-, #win-rate-wrapper {
+#rank-point-info-wrapper, #simple-win-rate-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+/* detail win rate style */
+#win-rate-graph {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#numeric-win-rate {
+    background: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
 }

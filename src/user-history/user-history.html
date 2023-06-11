@@ -65,28 +65,42 @@
             <div id="lol-nickname-comment-wrapper">
                 <div id="lol-nickname-wrapper">${}</div>
                 <div id="user-comment">${여기에 자기소개를
-                    적을거에요  ^^
+                    적을거에요 ^^
                     같이 게임해용~~~
-                    리스트 페이지에서 표시되는 것보다 자세하게}</div>
+                    리스트 페이지에서 표시되는 것보다 자세하게}
+                </div>
             </div>
         </div>
         <!--        end of user profile info wrapper-->
-        <div id="ranking-win-rate-wrapper">
-            <div id="ranking-wrapper">
-                <div id="tier-wrapper">
-                    <span>솔로 랭크</span>
-                    <img src="/assets/img/main/TFT_Regalia_Challenger.png" alt="티어 아이콘">
+        <div id="ranking-info-wrapper">
+            <div id="ranking-win-rate-wrapper">
+                <div id="ranking-wrapper">
+                    <div id="tier-wrapper">
+                        <span>솔로 랭크</span>
+                        <img src="/assets/img/main/TFT_Regalia_Challenger.png" alt="티어 아이콘">
+                    </div>
+                </div>
+                <div id="rank-etc-wrapper">
+                    <div id="rank-point-info-wrapper">
+                        <span>${}</span>
+                        <span>${}LP</span>
+                    </div>
+                    <div id="simple-win-rate-wrapper">
+                        <span>${}승 ${}패</span>
+                        <span>승률 ${}%</span>
+                    </div>
                 </div>
             </div>
-            <div id="rank-etc-wrapper">
-                <div id="rank-info-wrapper">
-                    <span>${}</span>
-                    <span>${}LP</span>
+            <!-- end of ranking and win rate wrapper -->
+            <div id="detail-win-rate-wrapper">
+                <div id="win-rate-graph-wrapper">
+                    <div>20전 ${}승 ${}패</div>
+                    <div id="win-rate-graph">
+                        <span id="numeric-win-rate">${20}%</span>
+                    </div>
                 </div>
-                <div id="win-rate-wrapper">
-                    <span>${}승 ${}패</span>
-                    <span>승률 ${}%</span>
-                </div>
+                <div></div>
+                <div></div>
             </div>
         </div>
     </div>
