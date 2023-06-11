@@ -23,7 +23,7 @@ function getMyCalendar() {
     }
     // 오늘부터 말일까지
     for (let i = match_today; i <= match_lastDate ; i++) {
-        dates += `<div class = "date my-calendar">${i}</div>`;
+        dates += `<div class = "date my-calendar available-date">${i}</div>`;
     }
 
     const myCalendar = document.getElementById('dates');

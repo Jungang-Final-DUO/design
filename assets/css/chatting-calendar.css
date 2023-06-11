@@ -91,7 +91,7 @@
     border-radius: 50%;
 }
 
-#dates .date:hover {
+#dates .available-date:hover {
     color: #1EA1F7;
     font-weight: 700;
     background: #e1ecff;
