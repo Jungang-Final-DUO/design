@@ -7,12 +7,12 @@ body::-webkit-scrollbar {
 #main-wrapper {
     /*border: 1px solid #fff;*/
     display: flex;
-    height: 600px;
-    color: white;
 }
 
 /* 좌측 메뉴 영역 */
 #my-page-sidebar {
+    color: white;
+    height: 600px;
     width: 20%;
     font-size: 18px;
     line-height: 2.2em;
@@ -30,8 +30,13 @@ body::-webkit-scrollbar {
     cursor: pointer;
 }
 
+#register-duo-profile {
+    font-weight: 700;
+}
+
 /* 우측 콘텐츠 영역 */
 #my-page-content {
+    color: white;
     width: 80%;
     /*border: 1px solid #fff;*/
     position: relative;
