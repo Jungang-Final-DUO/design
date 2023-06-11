@@ -1,15 +1,17 @@
 
+#history-wrapper {
+    color: #fff;
+}
+
 /* profile image wrapper style */
 #user-profile-info-wrapper {
-    padding: 30px;
+    padding: 60px;
     background: #6C3E78;
     border-radius: 28px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-
-    color: #fff;
 }
 
 #user-main-info-wrapper {
@@ -35,7 +37,7 @@
 
     margin-bottom: 15px;
 
-    font-size: 25px;
+    font-size: 2em;
 }
 
 #user-nickname-etc-wrapper img {
@@ -68,5 +70,58 @@
 
 #sns-chat-btn-wrapper img {
     height: 50px;
-    margin-right: 2px;
+    margin-right: 3px;
+}
+
+#lol-nickname-comment-wrapper {
+    width: 40%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 20px;
+
+    font-size: 2em;
+}
+
+#user-comment {
+    font-size: 0.8em;
+}
+
+/* ranking and win rate style */
+#ranking-win-rate-wrapper {
+    display: flex;
+
+    padding: 40px;
+    width: 40%;
+    background: #304373;
+    margin-top: 40px;
+    border-radius: 28px;
+
+    font-size: 2em;
+}
+
+#tier-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+#tier-wrapper img {
+    width: 200px;
+}
+
+#rank-etc-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+
+    font-size: 0.8em;
+}
+
+
+
+#rank-info-wrapper
+, #win-rate-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
