@@ -26,7 +26,7 @@
                     <div id="user_pic_container">
                         <button class="profile">
                             <img src="/assets/img/dongwoo/우기main.png" alt="first_img">
-                            <img src="/assets/img/dongwoo/사진교체금지.png" alt="first_hover_img" class="hover-img">
+                            <img src="/assets/img/dongwoo/사진교체금지.png" alt="first_hover_img" class="hover-img" id="first_hover_img">
                         </button>
                         <div class="bottom_profile">
                             <button class="profile2">
@@ -50,12 +50,12 @@
                                     <li class="forth_info_li">작성댓글수</li>
                                     <li class="fifth_info_li">팔로워수</li>
                                 </ul>
-                                <ul>
+                                <ul class="second_info_ul">
                                     <li class="first_info_li">${joinDate}</li>
                                     <li class="second_info_li">${recentLoginDate}</li>
-                                    <li class="third_info_li">${boardCount}</li>
-                                    <li class="forth_info_li">${replyCount}</li>
-                                    <li class="fifth_info_li">${followCount}</li>
+                                    <li class="third_info_li">${boardCount} 개</li>
+                                    <li class="forth_info_li">${replyCount} 개</li>
+                                    <li class="fifth_info_li">${followCount} 명</li>
                                 </ul>   
                             </ul>
                             <ul id="right_info">
