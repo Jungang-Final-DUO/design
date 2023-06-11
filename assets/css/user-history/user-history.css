@@ -145,7 +145,7 @@
 
 /* detail win rate style */
 #win-rate-graph {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 200px;
     height: 200px;
@@ -166,4 +166,6 @@
     line-height: 100px;
     font-size: 30px;
     transform: translate(-50%, -50%);
+
+    color: #000;
 }

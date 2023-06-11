@@ -1,5 +1,5 @@
-import {drawPieGraph} from "./draw-pie-graph";
+import {drawPieGraph} from "./draw-pie-graph.js";
 
 (() => {
-    drawPieGraph(20, '#win-rate-graph', )
+    drawPieGraph(20, '#win-rate-graph');
 })();
