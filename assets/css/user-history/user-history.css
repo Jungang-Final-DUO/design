@@ -5,7 +5,7 @@
 
 /* profile image wrapper style */
 #user-profile-info-wrapper {
-    padding: 60px;
+    padding: 40px;
     background: #6C3E78;
     border-radius: 28px;
 
@@ -98,7 +98,6 @@
     display: flex;
     justify-content: space-around;
 
-    padding: 40px 40px 20px;
     background: #304373;
     border-radius: 28px;
 }
@@ -106,6 +105,7 @@
 /* ranking and win rate style */
 #ranking-win-rate-wrapper {
     width: 40%;
+    padding: 40px 20px 20px;
 
     font-size: 2em;
 }
@@ -144,13 +144,32 @@
 }
 
 /* detail win rate style */
+#detail-win-rate-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50%;
+    padding: 20px;
+}
+
+#win-rate-graph-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    font-size: 1.2em;
+}
+
 #win-rate-graph {
-    position: absolute;
+    position: relative;
     display: inline-block;
     width: 200px;
     height: 200px;
     border-radius: 50%;
     transition: 0.3s;
+
+    margin-top: 20px;
 }
 
 #numeric-win-rate {
@@ -159,13 +178,60 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     text-align: center;
-    line-height: 100px;
+    line-height: 130px;
     font-size: 30px;
     transform: translate(-50%, -50%);
 
     color: #000;
+}
+
+#avg-point-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 60%;
+}
+
+#avg-point {
+    font-size: 1.2em;
+}
+
+#avg-kda {
+    font-size: 1.7em;
+}
+
+#most-champ-wrapper {
+    width: 45%;
+}
+
+#most-champ-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 1.7fr 1fr 0.7fr;
+    align-items: center;
+    justify-items: center;
+    row-gap: 10px;
+
+    margin-top: 20px;
+
+    font-size: 1.1em;
+}
+
+#most-champ-grid-wrapper img {
+    width: 60px;
+
+    border-radius: 5px;
+}
+
+#most-champ-wrapper .champ-win-rate {
+    width: 100%;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+
+    text-align: center;
 }
