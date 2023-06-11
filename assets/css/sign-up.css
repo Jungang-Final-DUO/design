@@ -5,8 +5,22 @@
     color: #fff;
 }
 
-/* sign-up header style */
+/* input + select style */
+input
+, select {
+    outline: none;
+}
 
+/* vsc 에서는 안보일 수 있음 */
+input[type='date']::-webkit-calendar-picker-indicator {
+    background: url('/assets/img/sign-up/calendar.png') center / cover;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator:hover {
+    cursor: pointer;
+}
+
+/* sign-up header style */
 header {
     display: flex;
     justify-content: space-between;
@@ -103,7 +117,7 @@ header h2 {
     display: grid;
     grid-template-columns: 1fr 2fr 50px;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 15px;
     column-gap: 20px;
 
     text-align: right;
@@ -133,7 +147,7 @@ header h2 {
 }
 
 #sign-up-request-input-wrapper .space {
-    height: 50px;
+    height: 80px;
 }
 
 #sign-up-request-input-wrapper .sns-input-wrapper {
@@ -175,6 +189,12 @@ header h2 {
 #submit-btn-wrapper button {
     width: 100px;
     height: 30px;
+
+    background: #111E30;
+}
+
+#submit-btn-wrapper button:hover {
+    background: #8498B5;
 }
 
 /* email confirm modal style */
