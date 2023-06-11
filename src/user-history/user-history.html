@@ -15,7 +15,7 @@
         <div id="user-profile-info-wrapper">
             <div id="user-main-info-wrapper">
                 <!-- 임시 이미지를 인라인 스타일로 먹임 -->
-                <div id="profile-img-wrapper"></div>
+                <button id="profile-img-wrapper" class="btn"></button>
                 <div>
                     <div id="user-nickname-etc-wrapper">
                         <!-- 달러랑 중괄호는 살짝 아래로 내려가있기 때문에 중앙정렬이 안맞아 보이는 것-->
@@ -23,12 +23,49 @@
                         <div id="user-position">
                             <img src="/assets/img/main/TOP.png" alt="탑">
                         </div>
-                        <div id="user-follow-heart"></div>
+                        <div id="user-follow-heart">
+                            <button class="btn">
+                                <!-- 팔로우 했을 경우 -->
+                                <img src="/assets/img/main/following.png" alt="팔로우 시 하트">
+                                <!-- 팔로우 하지 않았을 경우 -->
+                                <!-- <img src="/assets/img/main/not-following.png" alt="언팔로우 시 하트">-->
+                            </button>
+                        </div>
                     </div>
+                    <!-- end of user-nickname-etc-wrapper -->
+                    <div id="rate-point-wrapper">
+                        <div id="rate-wrapper">
+                            <img src="/assets/img/main/star.png" alt="별점 아이콘">
+                            <span>${}</span>
+                        </div>
+                        <div id="point-wrapper">
+                            <img src="/assets/img/main/coin.png" alt="포인트 아이콘">
+                            <span>${}</span>
+                        </div>
+                    </div>
+                    <!-- end of rate point wrapper -->
+                    <div id="sns-chat-btn-wrapper">
+                        <a href="https://instagram.com/${}" class="btn">
+                            <img src="/assets/img/main/instagram.png" alt="인스타그램 아이콘">
+                        </a>
+                        <a href="https://facebook.com/${}" class="btn">
+                            <img src="/assets/img/main/facebook.png" alt="페이스북 아이콘">
+                        </a>
+                        <a href="https://twitter.com/${}" class="btn">
+                            <img src="/assets/img/main/twitter.png" alt="트위터 아이콘">
+                        </a>
+                        <button class="btn">
+                            <img src="/assets/img/main/chatting-icon.png" alt="채팅 아이콘">
+                        </button>
+                    </div>
+                    <!-- end of sns chat button wrapper-->
                 </div>
             </div>
             <!--            end of user main info wrapper-->
-            <div></div>
+            <div id="lol-nickname-comment-wrapper">
+                <div id="lol-nickname-wrapper"></div>
+                <div id="user-comment"></div>
+            </div>
         </div>
         <!--        end of user profile info wrapper-->
         <div></div>
