@@ -37,3 +37,103 @@ body::-webkit-scrollbar {
     position: relative;
     border-left: 1px solid #FFFFFF;
 }
+
+/* 우측영역 작은 wrapper */
+#myinfo-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-box {
+    width: 20%;
+}
+
+.myinfo-title {
+    margin-bottom: 15px;
+}
+
+#profile-frame {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #fff;
+    height: 220px;
+}
+#main-profile-image {
+    width: 200px;
+}
+
+/* 프로필사진 제외 영역 */
+#my-info-box {
+    width: 70%;
+}
+
+#my-user-info {
+    display: flex;
+    /*border: 1px solid #fff;*/
+}
+
+/* 박스 타이틀 */
+#my-info-title {
+    width: 100%;
+}
+
+/* 닉네임, 생년월일, 롤계정 인풋 영역 */
+.my-info{
+    /*border: 1px solid #fff;*/
+    width: 230px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.my-info span {
+    display: block;
+    width: 100px;
+}
+
+.my-info-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.my-registered-info {
+    color: #FFFFFF;
+    width: 150px;
+    height: 25px;
+    outline: none;
+    background: #111E30;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+}
+
+.my-registered-info:focus {
+    background: #6C7C93;
+}
+
+/* sns 영역 */
+.sns-image {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.my-info-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.my-info-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+

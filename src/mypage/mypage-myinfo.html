@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/css/common.css">
-    <link rel="stylesheet" href="/assets/css/mypage/mypage.css">
+    <link rel="stylesheet" href="/assets/css/mypage/mypage-myinfo.css">
     <!--    <link rel="icon" href="/assets/img/main/simple-favicon-navy.png">-->
 </head>
 <body>
@@ -29,28 +29,28 @@
         <!--        원하는 내용 추가 -->
         <div id="myinfo-wrapper">
             <div id="profile-box">
-                <p>대표 프로필 사진</p>
+                <p class = "myinfo-title">대표 프로필 사진</p>
                 <div id="profile-frame">
-                    <img src="/assets/img/mypage/user-profile.jpg" alt="profile">
+                    <img id = "main-profile-image" src="/assets/img/mypage/user-profile.jpg" alt="profile">
                 </div>
                 <p>사진 추가</p>
             </div>
 <!--            내 정보 -->
             <div id="my-info-box">
 <!--               내 수정 가능한 정보 -->
+                    <p id = "my-info-title" class = "myinfo-title">내 가입 정보</p>
                 <div id="my-user-info">
-                    <p id = "my-registered-info">내 가입 정보</p>
                     <div class="my-info">
-                        <label><span>닉네임</span><input id = "userNickname" name = "userNickname" value = "${}"></label>
-                        <label><span>생년월일</span><input id = "userBirthday" name = "userBirthday" value = "${}"></label>
-                        <label><span>롤계정</span><input id = "lolNickname" name = "lolNickname" value = "${}"></label>
+                        <div class = "my-info-data"><span>닉네임</span><label><input class = "my-registered-info" id = "userNickname" name = "userNickname" value = "${}"></label></div>
+                        <div class = "my-info-data"><span>생년월일</span><label><input  class = "my-registered-info" id = "userBirthday" name = "userBirthday" value = "${}"></label></div>
+                        <div class = "my-info-data"><span>롤계정</span><label><input  class = "my-registered-info" id = "lolNickname" name = "lolNickname" value = "${}"></label></div>
                     </div>
                     <div class="my-info">
-                        <label><img src="/assets/img/mypage/instagram.png" alt = "sns"><input id = "instagram" name = "userInstagram" value = "${}"></label>
-                        <label><img src="/assets/img/mypage/facebook.png" alt = "sns"><input id = "facebook" name = "userFacebook" value = "${}"></label>
-                        <label><img src="/assets/img/mypage/twitter.png" alt = "sns"><input id = "twitter" name = "userTwitter" value = "${}"></label>
+                        <div class = "my-info-data"><img class = "sns-image" src="/assets/img/mypage/instagram.png" alt = "sns"><label><input class = "my-registered-info" id = "instagram" name = "userInstagram" value = "${}"></label></div>
+                        <div class = "my-info-data"><img class = "sns-image" src="/assets/img/mypage/facebook.png" alt = "sns"><label><input class = "my-registered-info" id = "facebook" name = "userFacebook" value = "${}"></label></div>
+                        <div class = "my-info-data"><img class = "sns-image" src="/assets/img/mypage/twitter.png" alt = "sns"><label><input class = "my-registered-info" id = "twitter" name = "userTwitter" value = "${}"></label></div>
                     </div>
-                    <div class="my-info"><div class="btn">정보변경</div></div>
+                    <div class="my-info"><div class="my-info-btn">정보변경</div></div>
                 </div>
 <!--               내 듀오 활동 내역 -->
                 <div id="my-activity">
