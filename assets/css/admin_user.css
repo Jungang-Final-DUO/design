@@ -99,12 +99,45 @@
 
 } */
 
+#main-wrapper .center_container #main_controller #user_pic_container button{
+    border: none;
+    background-color: transparent;
+
+}
+#main-wrapper .center_container #main_controller #user_pic_container button:hover img{
+    opacity: 0.8;
+    color: #000;
+}
+
 
 #main-wrapper .center_container #main_controller #user_pic_container .profile{
     /* border: 1px solid #88ff00; */
     height: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
+#main-wrapper .center_container #main_controller #user_pic_container .profile .hover-img{
+    position: absolute;
+ 
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#main-wrapper .center_container #main_controller #user_pic_container .profile:hover .hover-img{
+    opacity: 1;
+    width: 80%;
+    height: 80%;
+    
+}
+
+
 #main-wrapper .center_container #main_controller #user_pic_container .profile img{
     width: 100%;
     height: 100%;
@@ -115,12 +148,35 @@
     height: 23%;
     margin-top: 15%;
     display: flex;
+    
 }
 
 #main-wrapper .center_container #main_controller #user_pic_container .bottom_profile .profile2{
 /* border: 1px solid #00f514; */
 height: 100%;
 width: 45%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+#main-wrapper .center_container #main_controller #user_pic_container .bottom_profile .profile2:hover .hover-img{
+opacity: 1;
+width: 80%;
+height: 80%;
+
+}
+
+#main-wrapper .center_container #main_controller #user_pic_container .bottom_profile .profile2 .hover-img{
+    position: absolute;
+ 
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 
@@ -130,7 +186,7 @@ width: 45%;
 
 }
 
-#main-wrapper .center_container #main_controller #user_pic_container .bottom_profile div:last-child{
+#main-wrapper .center_container #main_controller #user_pic_container .bottom_profile button:last-child{
     margin-left: 10%;
 }
 
@@ -191,9 +247,27 @@ margin-left: 10%;
     width: 120px;
 }
 
+#main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info .second_info_ul #give_point{
+    border: none;
+    background-color: transparent;
+    width: 70px;
+    margin-right: 10px;
+    text-align: right;
+    color: white;
+}
+
 #main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info .second_info_ul li{
 border-bottom: 1px solid #ffffff;
 text-align: right;
+}
+
+#main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info .second_info_ul li:last-child{
+    width: 100px;
+    
+}
+
+#main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info .second_info_ul input:focus{
+    outline: none;
 }
 
 #main-wrapper .center_container #main_controller #userinfo #userinfo_content #detail_info #right_info{
