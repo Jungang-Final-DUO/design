@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/mypage/mypage.css">
+    <!--    <link rel="icon" href="/assets/img/main/simple-favicon-navy.png">-->
+</head>
+<body>
+
+<div id="main-wrapper">
+    <!--    마이페이지 좌측 메뉴바 영역 -->
+    <div id="my-page-sidebar">
+        <div id="my-page-menu-list">
+            <p class = "my-page-menu">듀오 프로필 등록 / 수정</p>
+            <p class = "my-page-menu">출석 체크</p>
+            <p class = "my-page-menu">내 정보 확인 / 변경</p>
+            <p class = "my-page-menu">비밀번호 변경</p>
+        </div>
+    </div>
+
+    <!-- 이 아래에 div 태그 열어서 width: 80% 으로 주기 -->
+    <!--    마이페이지 우측 콘텐츠 영역 -->
+    <div id="my-page-content">
+        <!--        원하는 내용 추가 -->
+        <div id="myinfo-wrapper">
+            <div id="profile-box">
+                <p>대표 프로필 사진</p>
+                <div id="profile-frame">
+                    <img src="/assets/img/mypage/user-profile.jpg" alt="profile">
+                </div>
+                <p>사진 추가</p>
+            </div>
+<!--            내 정보 -->
+            <div id="my-info-box">
+<!--               내 수정 가능한 정보 -->
+                <div id="my-user-info">
+                    <p id = "my-registered-info">내 가입 정보</p>
+                    <div class="my-info">
+                        <label><span>닉네임</span><input id = "userNickname" name = "userNickname" value = "${}"></label>
+                        <label><span>생년월일</span><input id = "userBirthday" name = "userBirthday" value = "${}"></label>
+                        <label><span>롤계정</span><input id = "lolNickname" name = "lolNickname" value = "${}"></label>
+                    </div>
+                    <div class="my-info">
+                        <label><img src="/assets/img/mypage/instagram.png" alt = "sns"><input id = "instagram" name = "userInstagram" value = "${}"></label>
+                        <label><img src="/assets/img/mypage/facebook.png" alt = "sns"><input id = "facebook" name = "userFacebook" value = "${}"></label>
+                        <label><img src="/assets/img/mypage/twitter.png" alt = "sns"><input id = "twitter" name = "userTwitter" value = "${}"></label>
+                    </div>
+                    <div class="my-info"><div class="btn">정보변경</div></div>
+                </div>
+<!--               내 듀오 활동 내역 -->
+                <div id="my-activity">
+                    <div id="my-duo-activity">
+                        <div id="my-popularity"></div>
+                        <div id="my-matching"></div>
+                    </div>
+                    <div id="my-board-activity">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
