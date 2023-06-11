@@ -45,7 +45,7 @@
                     <input type="text" id="user-nickname" name="userNickname">
 
                     <label>
-                        <select name="userGender" id="user-gender">
+                        <select name="userGender" id="user-gender" class="btn">
                             <option value="none">성별</option>
                             <option value="M">남자</option>
                             <option value="F">여자</option>
@@ -101,14 +101,16 @@
                     </div>
                     <div></div>
                 </div>
-                <div>
-                    <button type="submit">
+                <div id="submit-btn-wrapper">
+                    <button type="submit" class="btn">
                         회원가입
                     </button>
                 </div>
             </div>
         </div>
     </form>
+
+    <div id="email-confirm-modal"></div>
 </div>
 
 </body>

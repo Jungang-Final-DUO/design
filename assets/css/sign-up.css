@@ -89,11 +89,14 @@ header h2 {
     width: 50%;
 }
 
-#sign-up-request-info-wrapper button {
+#sign-up-request-info-wrapper button
+, #user-gender {
     border-radius: 5px;
     border: 1px solid #fff;
+    height: 100%;
 
     color: #fff;
+    background: #8498B5;
 }
 
 #sign-up-request-input-wrapper {
@@ -120,8 +123,17 @@ header h2 {
     background: #8498B5;
 }
 
+#user-gender {
+    width: 50px;
+    height: 25px;
+
+    text-align: center;
+
+    appearance: none;
+}
+
 #sign-up-request-input-wrapper .space {
-    height: 100px;
+    height: 50px;
 }
 
 #sign-up-request-input-wrapper .sns-input-wrapper {
@@ -151,4 +163,16 @@ header h2 {
 
 #sign-up-request-input-wrapper .sns-input-wrapper input:focus::placeholder {
     color: #fff;
+}
+
+#submit-btn-wrapper {
+    margin-top: 70px;
+
+    display: flex;
+    justify-content: right;
+}
+
+#submit-btn-wrapper button {
+    width: 100px;
+    height: 30px;
 }
