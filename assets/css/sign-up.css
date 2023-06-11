@@ -176,3 +176,56 @@ header h2 {
     width: 100px;
     height: 30px;
 }
+
+/* email confirm modal style */
+#email-confirm-modal {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: rgba(255, 255, 255, 0.93);
+    border-radius: 5px;
+    padding: 20px 30px;
+
+    color: #000;
+}
+
+#email-confirm-modal div:first-child {
+    line-height: 20px;
+}
+
+#email-confirm-modal div:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+#email-confirm-modal div:nth-child(2) label {
+    margin-right: 10px;
+}
+
+#email-confirm-modal div:nth-child(2) input {
+    width: 130px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#email-confirm-modal div:nth-child(2) button {
+    width: 45px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+
+#email-confirm-modal div:nth-child(3) {
+    display: flex;
+    justify-content: right;
+}
+
+#email-confirm-modal div:nth-child(3) button {
+    color: #2E93CC;
+}
