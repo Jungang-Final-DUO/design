@@ -1,18 +1,24 @@
 @import "common.css";
 
+.pwdsearch-marign{
+  margin: 0 auto;
+  width: 50%;
 
+}
 /* 스타일링을 위한 CSS */
-#main-wrapper {
-  position: absolute;
+/* #main-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   width: 442px;
   height: 365px;
   left: 33px;
   top: 41px;
-}
+} */
 
 .inner-header {
   /* display: none;  */
-  position: absolute;
+  margin: 0 auto;
   width: 497px;
   height: 665px;
   left: 703px;
@@ -24,14 +30,15 @@
 
 h2 {
 
-  position: absolute;
+  margin: 0 auto;
+  padding-top: 100px;
   width: 389px;
   height:86px;
   left: 55px;
   top: 55px;
   
-  /* font-family: 'Inter'; */
-  font-style: italic;
+  /* font-family: 'Inter';
+  font-style: italic; */
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
@@ -40,14 +47,15 @@ h2 {
 }
 
 p {
-  position: absolute;
+  margin: 0 auto;
+  margin-top: 100px;
   width: 414px;
   height: 19px;
   left: 44px;
   top: 152px;
-
+/* 
   font-family: 'Inter';
-  font-style: italic;
+  font-style: italic; */
   font-weight: 700;
   font-size: 22px;
   line-height: 29px;
@@ -58,14 +66,16 @@ p {
 }
 
 h3 {
-  position: absolute;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-right: 330px;
   width: 142px;
   height: 22px;
   left: 44px;
   top: 275px;
 
-  font-family: 'Inter';
-  font-style: italic;
+  /* font-family: 'Inter';
+  font-style: italic; */
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -77,38 +87,61 @@ h3 {
 }
 
 .email-text {
-  position: absolute;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-left: 10px;
   width: 418px;
   height: 44px;
   left: 44px;
   top: 318px;
-
+  outline: none;
   background: #F2F2F2;
+  border: none;
   border-radius: 5px;
-
+  
 }
 
+.email-text:focus{
+  border: 2px solid black; /* 포커스된 입력창에 파란색 테두리 추가 */
+  background: #FFFFFF; /* 포커스된 입력창 배경색 변경 */
+}
+
+/* .email-text:hover{
+  background-color: #CCCCCC;
+  color: #FFFFFF;
+} */
+
 .email-send {
-  position: absolute;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 40px;
   width: 418px;
   height: 73px;
   left: 44px;
   top: 415px;
-
-  background: #DDDFE4;
+  font-size: 40px;
+  color: #FFFFFF;
+  background: #1781c8;
 }
-
+/* #1781c8   #1EA1F7 */
+.email-send:hover{
+   background-color:#1781c8 ;
+  color: #705959 ;
+}
 .login-back {
-  position: absolute;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-right: 19px;
   width: 300px;
   height: 34px;
-  left: 104px;
+  left: 174px;
   top: 517px;
 
-  font-family: 'Inter';
-  font-style: italic;
+
+  /* font-style: italic; */
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   display: flex;
   align-items: center;
@@ -118,4 +151,8 @@ h3 {
   color: #1EA1F7;
 
 
+}
+.login-back:hover{
+
+  color: #1781c8;
 }
