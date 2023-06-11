@@ -352,7 +352,7 @@ body::-webkit-scrollbar {
     font-weight: 700;
 }
 
-/* 프로필 상세보기 모달 */
+/* -------------------프로필 상세보기 모달--------------------- */
 #profile-modal-background {
     width: 100vw;
     position: absolute;
@@ -413,7 +413,6 @@ body::-webkit-scrollbar {
 
 #cancel {
     display: none;
-    background: #fff;
     width: 60px;
     position: absolute;
     top: 0;
