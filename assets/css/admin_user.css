@@ -92,6 +92,14 @@
 
 }
 
+/* #main-wrapper .center_container #main_controller #user_pic_container p_hover:hover{
+    opacity: 0.8;
+    background-color: rgb(4, 68, 95);
+
+
+} */
+
+
 #main-wrapper .center_container #main_controller #user_pic_container .profile{
     /* border: 1px solid #88ff00; */
     height: 60%;
