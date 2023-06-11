@@ -22,14 +22,14 @@
             </ul>
             <ul class="menu_box">
                 <ul class="two_box">
-                    <a href="#" class="one_box">
+                    <a href="${getUserListByAdmin}" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img" id="sign" src="/assets/img/dongwoo/금일가입자수.png" alt="today_user"></li>
                             <li class="admin_category">금일 가입자</li>
                             <li class="mem_count">1 0 명</li>
                         </ul>
                     </a>
-                    <a href="#" class="one_box">
+                    <a href="${getUserListByAdmin}" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img" id="member"src="/assets/img/dongwoo/회원관리.png" alt="user_management"></li>
                             <li class="admin_category">회원관리</li>
@@ -38,14 +38,14 @@
                     </a>
                 </ul>
                 <ul class="two_box">
-                    <a href="#" class="one_box">
+                    <a href="/api/v1/accuses/{type}/{page}" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img accuse" src="/assets/img/dongwoo/신고사진.png" alt="today_accuse"></li>
                             <li class="admin_category">금일 신고</li>
                             <li class="mem_count">1 8 회</li>
                         </ul>
                     </a>
-                    <a href="#" class="one_box">
+                    <a href="/api/v1/accuses/{type}/{page}" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img accuse" src="/assets/img/dongwoo/신고사진.png" alt="accuse_management"></li>
                             <li class="admin_category">신고 관리</li>
@@ -54,14 +54,14 @@
                     </a>
                 </ul>
                 <ul class="two_box">
-                    <a href="#" class="one_box">
+                    <a href="/api/v1/boards/admin" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img accuse" src="/assets/img/dongwoo/게시판관리.png" alt="today_board"></li>
                             <li class="admin_category">금일 작성 게시물</li>
                             <li class="mem_count">8 건</li>
                         </ul>
                     </a>
-                    <a href="#" class="one_box">
+                    <a href="/api/v1/boards/admin" class="one_box">
                         <ul class="one_box_text">
                             <li class="pic"><img class="admin_img accuse" src="/assets/img/dongwoo/게시판관리.png" alt="board_management"></li>
                             <li class="admin_category">게시물 관리</li>
@@ -85,8 +85,8 @@
                     <button><img src="/assets/img/dongwoo/검색.png" alt="search"></button>
                 </div>
                 <ul class="admin_board">
-                    <li><a href="">글쓰기</a></li>
-                    <li><a href="">공지관리</a></li>
+                    <li><a href="/board/write">글쓰기</a></li>
+                    <li><a href="/board/list">공지관리</a></li>
                 </ul>
             </div>
             <!-- 회원관리 -->
@@ -105,28 +105,28 @@
                 </div>
                 <a href="#">
                     <div class="menubar">
-                        <div class="no">1</div>
-                        <div class="nickname">propess031</div>
-                        <div class="gender">남자</div>
-                        <div class="board_count">180 건</div>
-                        <div class="reply_count">150 개</div>
-                        <div class="warn_count">3 회</div>
-                        <div class="point">25,111</div>
-                        <div class="follow">185 명</div>
-                        <div class="sign_date">2023.06.08</div>
+                        <div class="no">${rowNum}</div>
+                        <div class="nickname">${userAccount}</div>
+                        <div class="gender">${gender}</div>
+                        <div class="board_count">${boardCount} 건</div>
+                        <div class="reply_count">${replyCount} 개</div>
+                        <div class="warn_count">${reportCount} 회</div>
+                        <div class="point">${point}</div>
+                        <div class="follow">${followCount} 명</div>
+                        <div class="sign_date">${joinDate}</div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="menubar">
-                        <div class="no">1</div>
-                        <div class="nickname">propess031</div>
-                        <div class="gender">남자</div>
-                        <div class="board_count">180 건</div>
-                        <div class="reply_count">150 개</div>
-                        <div class="warn_count">3 회</div>
-                        <div class="point">25,111</div>
-                        <div class="follow">185 명</div>
-                        <div class="sign_date">2023.06.08</div>
+                        <div class="no">${rowNum}</div>
+                        <div class="nickname">${userAccount}</div>
+                        <div class="gender">${gender}</div>
+                        <div class="board_count">${boardCount} 건</div>
+                        <div class="reply_count">${replyCount} 개</div>
+                        <div class="warn_count">${reportCount} 회</div>
+                        <div class="point">${point}</div>
+                        <div class="follow">${followCount} 명</div>
+                        <div class="sign_date">${joinDate}</div>
                     </div>
                 </a>
 
@@ -145,23 +145,23 @@
                     <div class="board_write_date">작성일자</div>
                     <div class="select_count">조회수</div>
                 </div>
-                <a href="#">
+                <a href="/board/detail">
                     <div class="menubar">
-                        <div class="no">no</div>
-                        <div class="nickname">propess031</div>
-                        <div class="title">오늘은 진수가 진수했다 다들 파이널 화이팅</div>
-                        <div class="board_write_date">2023.06.08</div>
-                        <div class="select_count">15</div>
+                        <div class="no">${boardNo}</div>
+                        <div class="nickname">${userNickname}</div>
+                        <div class="title">${boardTitle}</div>
+                        <div class="board_write_date">${writtenDate}</div>
+                        <div class="select_count">${boardViewCount}</div>
                         <div id="delete">삭제</div>
                     </div>
                 </a>
-                <a href="#">
+                <a href="/board/detail">
                     <div class="menubar">
-                        <div class="no">no</div>
-                        <div class="nickname">propess031</div>
-                        <div class="title">오늘은 진수가 진수했다 다들 파이널 화이팅</div>
-                        <div class="board_write_date">2023.06.08</div>
-                        <div class="select_count">15</div>
+                        <div class="no">${boardNo}</div>
+                        <div class="nickname">${userNickname}</div>
+                        <div class="title">${boardTitle}</div>
+                        <div class="board_write_date">${writtenDate}</div>
+                        <div class="select_count">${boardViewCount}</div>
                         <div id="delete">삭제</div>
                     </div>
                 </a>
@@ -180,19 +180,19 @@
                 </div>
                 <a href="#">
                     <div class="menubar">
-                        <div class="accuse_no">1</div>
-                        <div class="accuse_nickname">propess031</div>
-                        <div class="accuse_title">오늘은 진수가 진수했다 다들 화이팅</div>
-                        <div class="accuse_etc">이자식이 내꺼 훔쳐갔어요</div>
+                        <div class="accuse_no">${accuseNo}</div>
+                        <div class="accuse_nickname">${userAccount}</div>
+                        <div class="accuse_title">${accuseType}</div>
+                        <div class="accuse_etc">${accuseETC}</div>
                         <div class="accuse_count">15</div>
                     </div>
                 </a>
                 <a href="#">
                     <div class="menubar">
-                        <div class="accuse_no">1</div>
-                        <div class="accuse_nickname">propess031</div>
-                        <div class="accuse_title">오늘은 진수가 진수했다 다들 화이팅</div>
-                        <div class="accuse_etc">이자식이 내꺼 훔쳐갔어요</div>
+                        <div class="accuse_no">${accuseNo}</div>
+                        <div class="accuse_nickname">${userAccount}</div>
+                        <div class="accuse_title">${accuseType}</div>
+                        <div class="accuse_etc">${accuseETC}</div>
                         <div class="accuse_count">15</div>
                     </div>
                 </a>
