@@ -1,33 +1,35 @@
 @import "common.css";
 
-.matching-box{
+.matching-box {
     display: flex;
+    justify-content: space-around;
 }
+
 .application-match {
 
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-left: 50px;
     width: 563px;
     height: 621px;
     left: 65px;
     top: 30px;
 
 }
-/* 
+
 .application-mymatch {
 
     box-sizing: border-box;
-    margin: 0 auto;
+    margin-right: 50px;
     width: 563px;
     height: 621px;
     left: 65px;
     top: 30px;
 
-} */
+}
 
 
 h2 {
-   
+
     width: 197px;
     height: 44px;
     left: 20px;
@@ -42,7 +44,7 @@ h2 {
 }
 
 .duo-header {
-    
+
     display: flex;
     width: 562px;
     height: 29px;
@@ -51,7 +53,8 @@ h2 {
     justify-content: space-around;
 
 }
-.matching-peolpe{
+
+.matching-peolpe {
     width: 156px;
     height: 24px;
     left: 6px;
@@ -64,7 +67,7 @@ h2 {
     color: #FFFFFF;
 }
 
-.matching-day{
+.matching-day {
     width: 116px;
     height: 24px;
     left: 6px;
@@ -78,7 +81,7 @@ h2 {
 
 }
 
-.nickname-another{
+.nickname-another {
     width: 156px;
     height: 24px;
     left: 6px;
@@ -92,6 +95,7 @@ h2 {
 
 
 }
+
 .duo-record {
     padding: 20px;
     text-align: center;
@@ -105,7 +109,7 @@ h2 {
 }
 
 .duo-detail {
-   display: flex;
+    display: flex;
     justify-content: space-around;
 
     width: 552px;
@@ -123,6 +127,7 @@ h2 {
     height: 24px;
     left: 6px;
     top: 3px;
+    line-height: 1.5;
 
     font-weight: 500;
     font-size: 15px;
@@ -132,34 +137,35 @@ h2 {
 
 }
 
-.writer-review{
+.writer-review {
 
     box-sizing: border-box;
 
-
+    /* justify-content: center; */
     width: 116px;
     height: 24px;
     left: 307px;
     top: 1px;
-    
+
     background: #142F57;
     border-radius: 5px;
 }
 
-span{
+span {
     width: 88px;
     height: 18px;
     left: 11px;
     top: 4px;
-    
+
 
     font-weight: 400;
     font-size: 15px;
-    line-height: 18px;
-    
+    line-height: 1.8;
+
     color: #FFFFFF;
 
 }
-.writer-review:hover span{
-    color: #264c84;
+
+.writer-review:hover {
+    border: 1px solid #ffff;
 }
