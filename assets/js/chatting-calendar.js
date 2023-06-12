@@ -13,12 +13,18 @@ function prevMonth(){
     // 오늘 날짜와 비교하여 더 앞으로 갈 수 없도록 검사
     const prev_today = 1;
     const prev_month = match_month === 1 ? 12 : match_month - 1;
-    const prev_year = prevMonth === 12 ? match_year - 1 : match_year;
+    const prev_year = prev_month === 12 ? match_year - 1 : match_year;
     const prev_now = new Date(prev_year, prev_month - 1, prev_today);
+    // console.log(prev_now);
+    // console.log(realNow);
 
-    if(prev_month <= realNow.getMonth() + 1){
+    if(prev_now <= realNow){
         const realNow = new Date();
-        getMyCalendar(realNow, realNow.getDate(), realNow.getMonth() + 1, realNow.getFullYear());
+        match_now = realNow;
+        match_today = realNow.getDate();
+        match_year = realNow.getFullYear();
+        match_month = realNow.getMonth() + 1;
+        getMyCalendar(match_now, match_today, match_month, match_year);
     } else {
         match_now = prev_now;
         match_today = prev_today;
@@ -35,6 +41,9 @@ function nextMonth(){
     match_month = match_month === 12 ? 1 : match_month + 1;
     match_year = match_month === 1 ? match_year + 1 : match_year;
     match_now = new Date(match_year, match_month - 1, match_today);
+    // console.log(match_now);
+    // console.log(realNow);
+
     getMyCalendar(match_now, match_today, match_month, match_year);
 }
 
