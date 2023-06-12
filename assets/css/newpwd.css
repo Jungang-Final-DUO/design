@@ -1,0 +1,280 @@
+@import "common.css";
+.newpwd-marign{
+
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.newpwd-header {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    width: 773px;
+    height: 641px;
+    left: 573px;
+    top: 220px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+h2 {
+    
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-left: 55px;
+    width: 389px;
+    height: 66px;
+    left: 48px;
+    top: 62px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+
+
+}
+
+
+.certify-email {
+
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 651px;
+    height: 106px;
+    left: 45px;
+    top: 163px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.certify-number {
+
+    
+    margin: 0 auto;
+    margin-left: 60px;
+    width: 629px;
+    height: 71px;
+    left: 48px;
+    top: 268px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+
+.cerity {
+    
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 599px;
+    height: 44px;
+    left: 48px;
+    top: 359px;
+
+
+}
+
+
+.certify-text {
+    
+    margin: 0 auto;
+    /* Auto layout */
+    margin-left: 10px;
+    width: 324px;
+    height: 31px;
+
+    background: #F2F2F2;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
+
+.certify-text:focus {
+
+    
+    margin: 0 auto;
+    border: 2px solid black;
+    /* 포커스된 입력창에 파란색 테두리 추가 */
+    background: #FFFFFF;
+    /* 포커스된 입력창 배경색 변경 */
+
+}
+
+.certify-check {
+
+    margin: 0 auto;
+    width: 195px;
+    height: 33px;
+    color: #FFFFFF;
+    background: #1EA1F7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.font {
+
+    margin: 0 auto;
+    margin-left: 36px;
+    width: 198px;
+    height: 30px;
+    left: 420px;
+    top: 4px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.font:hover {
+    color: #ffffff90;
+}
+
+/* .pwd {
+
+
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 599px;
+    height: 44px;
+    left: 48px;
+    top: 470px;
+
+}  */
+
+/* .pwd-text {
+
+    width: 324px;
+    height: 31px;
+    top: 24px;
+    background: #F2F2F2;
+    border-radius: 5px;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+ } 
+
+.pwd-text:focus {
+    border: 2px solid black;
+    background: #FFFFFF;
+
+} */
+
+.pwd{
+    
+    margin: 0 auto;
+    margin-left: 60px;
+    margin-top: 70px;
+    width: 126px;
+    height: 29px;
+    left: 48px;
+    top: 431px;
+
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.return-email {
+    
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-left: 230px;
+    width: 303px;
+    height: 29px;
+    left: 215px;
+    top: 554px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+.email{
+
+    display:flex;
+}
+
+.resend-email {
+
+
+    margin: 0 auto;
+    margin-top: 59px;
+    margin-right: 64px;
+    
+    width: 303px;
+    height: 29px;
+    left: 447px;
+    top: 554px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #1EA1F7;
+
+}
+
+.resend-email:hover {
+
+    color: #1ea0f77c;
+}
