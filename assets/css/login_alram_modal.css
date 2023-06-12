@@ -1,16 +1,24 @@
 @import url("common.css");
 
+body{
+    position: relative;
+}
+
 #main-wrapper{
-    border:  solid #000;
+    /* border:  solid #000; */
     height: 1000px;
 }
 
 #main-wrapper .login_alram_modal{
     border: 1px solid #ffffff;
-    height: 40%;
-    width: 40%;
+    height: 500px;
+    width:  600px;
     border-radius: 5%;
     background-color: #1B1A56;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #main-wrapper .login_alram_modal .alram_modal_background{
@@ -66,3 +74,4 @@ font-weight: 800;
     border-bottom: 1px solid #000;
 
 }
+
