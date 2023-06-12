@@ -5,6 +5,10 @@ header {
     align-items: center;
 }
 
+#ad-wrapper {
+    margin-bottom: 30px;
+}
+
 #logo {
     width: 150px;
 }
