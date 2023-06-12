@@ -1,4 +1,4 @@
-@import url("common.css");
+@import url("/assets/css/common.css");
 .clearfix::after {
     content: "";
     display: table;
