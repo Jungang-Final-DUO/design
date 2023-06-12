@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
     width: 20%;
     font-size: 18px;
     line-height: 2.2em;
-    border-right: 1px solid #FFFFFF;
+    /* border-right: 1px solid #FFFFFF; */
     /*border: 1px solid #fff;*/
 }
 
@@ -34,4 +34,5 @@ body::-webkit-scrollbar {
 #my-page-content {
     color: white;
     width: 80%;
+    border-left: 1px solid #fff;
 }
