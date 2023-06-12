@@ -40,9 +40,13 @@
 
 /* 포인트충전소 광고 목록 전체 감싸는 css */
 .pointStation-container-wrapper {
-    height: 800px;
+    /* height: 800px; */
     /* border: 2px solid #00ff40; */
     overflow-y: scroll;
+}
+.pointStation-adTitle {
+    width: 200px;
+    text-align: center;
 }
 .pointStation-container-wrapper::-webkit-scrollbar {
     display: none;
@@ -60,8 +64,8 @@
 .pointStation-container-wrapper div.pointStation-ad-card-content {
     /* border: 2px solid #ff1d1d; */
     display: flex;
-    justify-content: center;
-    gap: 120px;
+    justify-content: space-between;
+    /* gap: 120px; */
     align-items: center;
     font-size: 18px;
 }
@@ -73,8 +77,7 @@
 }
 
 .before-mission:hover {
-    background-color: #ffffff;
-    opacity: 10%;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* 광고목록 카드 자식 태그들 inline */

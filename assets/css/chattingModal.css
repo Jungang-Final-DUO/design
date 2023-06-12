@@ -45,6 +45,7 @@
     color: #fff;
     margin: 0px auto 5px;
     padding: 10px;
+    cursor: pointer;
 }
 
 .chatting-modal-container {
@@ -95,10 +96,8 @@
 .chatting-card-inner .chatting-unread {
     background: red;
     border-radius: 5px;
-    width: 30px;
-    height: 23px;
     text-align: center;
 
     margin-top: 30px;
-    padding-top: 3px;
+    padding: 5px;
 }
