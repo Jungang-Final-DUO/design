@@ -86,18 +86,19 @@
     /* border: 1px solid #000; */
     background: #fff;
     border-radius: 15px;
-    width: 75px;
+    width: 120px;
     height: 25px;
     font-weight: 700;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .matching-accept-container {
     display: inline-block;
-    cursor: pointer;
+    /* cursor: pointer; */
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .chatting-handshake-img {
     width: 25px;
@@ -166,6 +167,7 @@
     border-radius: 5px;
     margin: 5px 10px 0px 20px;
     margin-top: 5px;
+    outline: none;
 }
 
 .message-send-btn {

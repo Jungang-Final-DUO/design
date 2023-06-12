@@ -73,7 +73,8 @@
 }
 
 .before-mission:hover {
-    background-color: #3c4c62;
+    background-color: #ffffff;
+    opacity: 10%;
 }
 
 /* 광고목록 카드 자식 태그들 inline */

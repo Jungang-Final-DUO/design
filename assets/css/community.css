@@ -1,0 +1,139 @@
+@import "common.css";
+
+.community-wrapper {
+    width: 1120px;
+    margin: 50px auto 0;
+}
+
+.community-wrapper img{
+    width: 20px;
+}
+
+/* 검색창, 글쓰기 부분*/
+.search-write-wrapper {
+    border: 1px solid #37ff00;
+    
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+/* 검색창 */
+.search-container {
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box {
+    background: #0f122f;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.searh-btn-img {
+    width: 20px;
+}
+/* 글쓰기 */
+.write-container {
+    border: 2px solid #fff;
+    background: #0f122f;
+    margin-left: 20px;
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-write-btn {
+    color: #fff;
+}
+.board-write-btn p {
+    display: inline-block;
+}
+.board-write-btn img {
+    margin-left: 10px;
+}
+
+
+/* 필터, 정렬 */
+.sort-wrapper {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #37ff00;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.sort-wrapper button {
+    border: 2px solid #fff;
+    border-radius: 20px;
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.category-wrapper button {
+    width: 60px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.orderby-wrapper {
+    display: flex;
+    height: 35px;
+}
+.orderby-wrapper button {
+    margin-right: 15px;
+}
+.orderby-wrapper img {
+    margin-right: 10px;
+}
+.new-board-btn {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.week-recommend-btn {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month-recommend-btn {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 커뮤니티 바디 */
+.community-body-wrapper {
+    display: flex;
+}
+
+/* 랭크 css */
+.rank-wrapper {
+    width: 20%;
+    border: 1px solid #15ff00;
+    background: #fff;
+    opacity: 80%;
+
+}
+.rank-head {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank-card {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
