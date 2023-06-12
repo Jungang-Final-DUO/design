@@ -1,4 +1,4 @@
-@import "common.css";
+@import "../common.css";
 .newpwd-marign{
 
     margin: 0 auto;
@@ -77,15 +77,12 @@ h2 {
 .cerity {
     
     margin: 0 auto;
-    margin-left: 350px;
-    margin-top: 70px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 60px;
-
-    position: absolute;
+    margin-top: 50px;
     width: 599px;
     height: 44px;
     left: 48px;
@@ -121,7 +118,7 @@ h2 {
     
     margin: 0 auto;
     border: 2px solid black;
-    /* 포커스된 입력창에 파란색 테두리 추가 */
+    /* 포커스된 입력창에  추가 */
     background: #FFFFFF;
     /* 포커스된 입력창 배경색 변경 */
 
@@ -162,8 +159,8 @@ h2 {
 
 }
 
-.font:hover {
-    color: #ffffff90;
+.certify-check:hover{
+    background-color: #1781c8;
 }
 
 /* .pwd {
@@ -209,7 +206,7 @@ h2 {
     
     margin: 0 auto;
     margin-left: 60px;
-    margin-top: 70px;
+    margin-top: 20px;
     width: 126px;
     height: 29px;
     left: 48px;

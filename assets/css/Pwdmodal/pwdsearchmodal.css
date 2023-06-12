@@ -1,4 +1,4 @@
-@import "common.css";
+@import "../common.css";
 
 .pwdsearch-marign{
   margin: 0 auto;
@@ -122,18 +122,17 @@ h3 {
   top: 415px;
   font-size: 40px;
   color: #FFFFFF;
-  background: #1781c8;
+  background: #1EA1F7;
 }
 /* #1781c8   #1EA1F7 */
 .email-send:hover{
    background-color:#1781c8 ;
-  color: #705959 ;
+ 
 }
 .login-back {
   margin: 0 auto;
-  margin-top: 40px;
-  margin-right: 19px;
-  width: 300px;
+  margin-top: 80px;
+
   height: 34px;
   left: 174px;
   top: 517px;
