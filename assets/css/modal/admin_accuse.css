@@ -1,7 +1,7 @@
-@import url("common.css");
+@import url("/assets/css/common.css");
 
 #main-wrapper{
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     height: 800px;
     margin-top: 30px;
 }
@@ -96,4 +96,9 @@ margin-top: 6%;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #ffffff;
+    color:white;
+}
+
+.container .checkbox_table .checkbox_content #acc:focus{
+outline: none;
 }

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/assets/css/board/board_findone.css">
+
+</head>
+
+<body>
+    <div id="main-wrapper">
+        <div class="container">
+            <div class="left_container">
+                <ul class="best_writer">
+                    <div id="best_writer">
+                        <div class="grade_img"><img src="/assets/img/dongwoo/골드.png" alt="gold"></div>
+                        <div id="bestwriter">Best Writer</div>
+                        <div class="grade_img"><img src="/assets/img/dongwoo/골드.png" alt="gold"></div>
+                    </div>
+                    <ul id="best_writer_user">
+                        <ul class="writer_member">
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>${}</li>
+                            </ul>
+
+                            <!-- 여기부터 지워도 됩니다 -->
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <ul class="duo_member">
+                                <div class="img_controll"><img src="/assets/img/dongwoo/골드.png" alt="gold"></img></div>
+                                <li>예비챌린저</li>
+                            </ul>
+                            <!-- 여기까지 지워도 됩니다 -->
+                        </ul>
+                    </ul>
+                </ul>
+                <div class="banner">
+
+                </div>
+            </div>
+            <div class="right_box">
+                <form class="right_container">
+                    <h1>${제목}</h1>
+                    <ul class="board_info">
+                        <li class="category">${자유}</li>
+                        <li class="date">${2023.05.20 11:00}</li>
+                        <li class="img"><img src="/assets/img/dongwoo/조회수.png" alt="view_count"></li>
+                        <li class="count">${100}</li>
+                        <li class="img"><img src="/assets/img/dongwoo/댓글수.png" alt="board_count"></li>
+                        <li class="count">${100}</li>
+                        <li id="img_right"><img class="img right_img" src="/assets/img/dongwoo/골드.png" alt="gold"><p class="right_text">${작성자}</p></li>
+                    </ul>
+                    <div id="content">${내용}</div>
+
+                </form>
+                <div class="islike">
+                    <button>
+                        <div id="like_img"><img src="/assets/img/dongwoo/따봉.png" alt="islike"></div>
+                    </button>
+                    <div id="like_count">31</div>
+                </div>
+                
+                <div id="bottom_box">    
+
+                    <form class="reply_container" action="">
+                    <textarea name="replyContent " id="reply" placeholder="로그인 후 이용해주세요." cols="100" rows="3"></textarea>
+                    <div id="reply_button"><button>등록</button></div>
+                    </form>
+                    <div class="reply_result">
+                        <div id="reply_show">
+                            <div id="reply_img">
+                                <img src="/assets/img/dongwoo/우기2.png" alt="id_img">
+                            </div>
+                            <div id="reply_id">${id}</div>
+                            <div id="reply_content">
+                                <p>${제목}</p>
+                                <div class="reply_img_contain">
+                                    <button class="reply_img first_img"><img src="/assets/img/dongwoo/댓글수정버튼.png"
+                                            alt="reply_modify"></button>
+                                    <button class="reply_img circle"><img src="/assets/img/dongwoo/댓글삭제.png"
+                                            alt="reply_delete"></button>
+                                </div>
+                            </div>
+                            
+                            <div class="reply_time">${시간} 전</div>
+                        </div>
+                        <div id="reply_show">
+                            <div id="reply_img">
+                                <img src="/assets/img/dongwoo/우기2.png" alt="">
+                            </div>
+                            <div id="reply_id">${id}</div>
+                            <div id="reply_content">
+                                <p>${제목}</p>
+                                <div class="reply_img_contain">
+                                    <button class="reply_img first_img"><img src="/assets/img/dongwoo/댓글수정버튼.png"
+                                            alt="reply_modify"></button>
+                                    <button class="reply_img circle"><img src="/assets/img/dongwoo/댓글삭제.png"
+                                            alt="reply_delete"></button>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="reply_time">${시간} 전</div>
+                        </div>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
