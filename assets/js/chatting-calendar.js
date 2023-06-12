@@ -1,8 +1,55 @@
-function getMyCalendar() {
-    const match_now = new Date();
-    const match_today = match_now.getDate();
-    const match_year = match_now.getFullYear();
-    const match_month = match_now.getMonth() + 1;
+const realNow = new Date();
+let match_now = new Date();
+let match_today = match_now.getDate();
+let match_year = match_now.getFullYear();
+let match_month = match_now.getMonth() + 1;
+
+const prev = document.getElementById('prev');
+prev.addEventListener('click', prevMonth)
+const next = document.getElementById('next');
+next.addEventListener('click', nextMonth)
+
+function prevMonth(){
+    // 오늘 날짜와 비교하여 더 앞으로 갈 수 없도록 검사
+    const prev_today = 1;
+    const prev_month = match_month === 1 ? 12 : match_month - 1;
+    const prev_year = prev_month === 12 ? match_year - 1 : match_year;
+    const prev_now = new Date(prev_year, prev_month - 1, prev_today);
+    // console.log(prev_now);
+    // console.log(realNow);
+
+    if(prev_now <= realNow){
+        const realNow = new Date();
+        match_now = realNow;
+        match_today = realNow.getDate();
+        match_year = realNow.getFullYear();
+        match_month = realNow.getMonth() + 1;
+        getMyCalendar(match_now, match_today, match_month, match_year);
+    } else {
+        match_now = prev_now;
+        match_today = prev_today;
+        match_year = prev_year;
+        match_month = prev_month;
+        getMyCalendar(match_now, match_today, match_month, match_year);
+    }
+
+}
+
+function nextMonth(){
+    // 오늘 날짜와 비교하여 더 앞으로 갈 수 없도록 검사
+    match_today = 1;
+    match_month = match_month === 12 ? 1 : match_month + 1;
+    match_year = match_month === 1 ? match_year + 1 : match_year;
+    match_now = new Date(match_year, match_month - 1, match_today);
+    // console.log(match_now);
+    // console.log(realNow);
+
+    getMyCalendar(match_now, match_today, match_month, match_year);
+}
+
+
+
+function getMyCalendar(match_now, match_today, match_month, match_year) {
 
 // 1일의 요일 구하기
     const match_firstDay = new Date(match_now.setDate(1)).getDay();
@@ -30,4 +77,4 @@ function getMyCalendar() {
     myCalendar.innerHTML = dates;
 }
 
-getMyCalendar();
+getMyCalendar(match_now, match_today, match_month, match_year);
