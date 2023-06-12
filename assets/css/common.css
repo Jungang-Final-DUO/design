@@ -8,14 +8,28 @@
 body {
     font-size: 15px;
     margin: 0;
-    padding: 0;
+    padding: 40px 0 0;
+
+    background-color: #111E30;
 }
 
 #main-wrapper {
     width: 1400px;
+
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+    background: inherit;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    overflow: visible;
+    cursor: pointer
 }
