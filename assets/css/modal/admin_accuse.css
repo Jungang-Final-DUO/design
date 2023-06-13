@@ -80,13 +80,15 @@ height: 20px;
 background: none;
 margin-left: 3%;
 margin-top: 6%;
+background-color: #111E30;
 
 }
 
 .container .checkbox_table .checkbox_content .check_input{
     background-color: transparent;
-    appearance: none;
     border: 1px solid #ffffff;
+    background-color: transparent;
+
 
 }
 
