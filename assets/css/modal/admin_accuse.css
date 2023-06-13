@@ -77,15 +77,12 @@ margin-left: 3%;
 .container .checkbox_table .checkbox_content input{
 width: 20px;
 height: 20px;
-background: none;
 margin-left: 3%;
 margin-top: 6%;
-
+background-color: transparent;
 }
 
 .container .checkbox_table .checkbox_content .check_input{
-    background-color: transparent;
-    appearance: none;
     border: 1px solid #ffffff;
 
 }
