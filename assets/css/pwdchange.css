@@ -3,6 +3,9 @@
 /* .sub-wrapper{
     display:flex;
 } */
+.sub-wrapper{
+    margin-top:180px;
+}
 .now-pwd {
     display: flex;
     margin: 0 auto;
@@ -39,7 +42,7 @@
 }
 
 
-p {
+.pwd-font {
     width: 216px;
     height: 24px;
     left: 17px;
@@ -178,5 +181,6 @@ span {
 }
 
 .alter-change:hover span{
-    color: #283d5d;
+    color: #FFFFFF;
+    opacity: 70%;
 }

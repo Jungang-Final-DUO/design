@@ -2,13 +2,14 @@
 
 .matching-box {
     display: flex;
-    justify-content: space-around;
+ 
+    justify-content:  center;
 }
 
 .application-match {
 
     box-sizing: border-box;
-    margin-left: 50px;
+    margin-left: 70px;
     width: 563px;
     height: 621px;
     left: 65px;
@@ -19,7 +20,7 @@
 .application-mymatch {
 
     box-sizing: border-box;
-    margin-right: 50px;
+    margin-left: 30px;
     width: 563px;
     height: 621px;
     left: 65px;
