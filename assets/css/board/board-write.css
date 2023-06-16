@@ -18,18 +18,25 @@
     margin-bottom: 30px;
 }
 
-#board-write-wrapper textarea {
+#board-write-wrapper .text-area-wrapper {
+    padding: 10px 20px;
     border-radius: 20px;
+
+    background: #fff;
+}
+
+#board-write-wrapper textarea {
     width: 850px;
     font-size: 1.1em;
 
-    padding: 10px 20px;
-
     resize: none;
+
+    border: none;
+    outline: none;
 }
 
 #board-title {
-    height: 2.3em;
+    height: 1.3em;
     overflow: hidden;
 }
 
@@ -69,6 +76,7 @@
     display: flex;
     width: 40%;
     justify-content: space-between;
+    margin-bottom: 0 !important;
 }
 
 #board-btn-wrapper button {
