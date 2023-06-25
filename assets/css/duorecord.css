@@ -61,8 +61,6 @@ body::-webkit-scrollbar {
 
 .matching-box {
     display: flex;
-
-    justify-content: space-around;
 }
 
 .application-match {
@@ -71,30 +69,38 @@ body::-webkit-scrollbar {
     left: 65px;
     top: 30px;
 
-}
-
-.application-mymatch {
-
-    box-sizing: border-box;
-    margin-left: 30px;
-    left: 65px;
-    top: 30px;
+    width: 50%;
+    padding: 30px 40px;
 
 }
-
-
 
 h2 {
 
     left: 20px;
     top: 14px;
-    text-align: center;
 
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
 
     color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.matching-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 2.5fr;
+
+    background-color: #3F4A5B;
+    border-radius: 10px;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.matching-grid > *:nth-child(4 - n) {
+    font-weight: bold;
 }
 
 .matching-people {
@@ -102,7 +108,6 @@ h2 {
     left: 6px;
     top: 3px;
 
-    font-weight: 500;
     font-size: 15px;
     line-height: 18px;
 
@@ -114,7 +119,6 @@ h2 {
     left: 6px;
     top: 3px;
 
-    font-weight: 500;
     font-size: 15px;
     line-height: 18px;
 
@@ -127,7 +131,6 @@ h2 {
     left: 6px;
     top: 3px;
 
-    font-weight: 500;
     font-size: 15px;
     line-height: 18px;
 
@@ -147,13 +150,11 @@ h2 {
 }
 
 
-
 .my-review {
 
     height: 24px;
     left: 6px;
     top: 3px;
-    font-weight: 500;
     font-size: 15px;
     line-height: 18px;
 
@@ -172,20 +173,6 @@ h2 {
 
     background: #142F57;
     border-radius: 5px;
-}
-
-span {
-    height: 18px;
-    left: 11px;
-    top: 4px;
-
-
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.8;
-
-    color: #FFFFFF;
-
 }
 
 .writer-review:hover {
