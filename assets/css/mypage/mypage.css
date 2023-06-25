@@ -6,7 +6,7 @@ body::-webkit-scrollbar {
 
 #main-wrapper {
     /*border: 1px solid #fff;*/
-    display: flex;
+    /*display: flex;*/
 }
 
 /* 좌측 메뉴 영역 */

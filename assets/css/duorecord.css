@@ -1,17 +1,73 @@
-@import "common.css";
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#my-page-wrapper {
+    display: flex;
+}
+
+/* 좌측 메뉴 영역 */
+#my-page-sidebar {
+    color: white;
+    height: 600px;
+    width: 20%;
+    font-size: 18px;
+    line-height: 2.2em;
+    /* border-right: 1px solid #FFFFFF; */
+    /*border: 1px solid #fff;*/
+}
+
+#my-page-menu-list {
+    margin-top: 30px;
+}
+
+/* 각 페이지에서는 해당 페이지 메뉴에 fw700 default 먹이기 */
+.my-page-menu:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* 우측 콘텐츠 영역 */
+#my-page-content {
+    color: white;
+    width: 80%;
+    border-left: 1px solid #fff;
+}
+
+#my-page-wrapper {
+    display: flex;
+}
+
+/* 좌측 메뉴 영역 */
+#my-page-sidebar {
+    color: white;
+    height: 600px;
+    width: 20%;
+    font-size: 18px;
+    line-height: 2.2em;
+    border-right: 1px solid #FFFFFF;
+    /*border: 1px solid #fff;*/
+}
+
+#my-page-menu-list {
+    margin-top: 30px;
+}
+
+/* 각 페이지에서는 해당 페이지 메뉴에 fw700 default 먹이기 */
+.my-page-menu:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
 
 .matching-box {
     display: flex;
- 
-    justify-content:  center;
+
+    justify-content: space-around;
 }
 
 .application-match {
 
     box-sizing: border-box;
-    margin-left: 70px;
-    width: 563px;
-    height: 621px;
     left: 65px;
     top: 30px;
 
@@ -21,18 +77,15 @@
 
     box-sizing: border-box;
     margin-left: 30px;
-    width: 563px;
-    height: 621px;
     left: 65px;
     top: 30px;
 
 }
 
 
+
 h2 {
 
-    width: 197px;
-    height: 44px;
     left: 20px;
     top: 14px;
     text-align: center;
@@ -44,19 +97,7 @@ h2 {
     color: #FFFFFF;
 }
 
-.duo-header {
-
-    display: flex;
-    width: 562px;
-    height: 29px;
-    left: 13px;
-    top: 19px;
-    justify-content: space-around;
-
-}
-
-.matching-peolpe {
-    width: 156px;
+.matching-people {
     height: 24px;
     left: 6px;
     top: 3px;
@@ -69,7 +110,6 @@ h2 {
 }
 
 .matching-day {
-    width: 116px;
     height: 24px;
     left: 6px;
     top: 3px;
@@ -83,7 +123,6 @@ h2 {
 }
 
 .nickname-another {
-    width: 156px;
     height: 24px;
     left: 6px;
     top: 3px;
@@ -97,23 +136,10 @@ h2 {
 
 }
 
-.duo-record {
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-    width: 571px;
-    height: 571px;
-
-
-    background: #3F4A5B;
-    border-radius: 10px;
-}
-
 .duo-detail {
     display: flex;
     justify-content: space-around;
 
-    width: 552px;
     height: 34px;
     left: 13px;
     top: 62px;
@@ -124,12 +150,9 @@ h2 {
 
 .my-review {
 
-    width: 316px;
     height: 24px;
     left: 6px;
     top: 3px;
-    line-height: 1.5;
-
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
@@ -143,7 +166,6 @@ h2 {
     box-sizing: border-box;
 
     /* justify-content: center; */
-    width: 116px;
     height: 24px;
     left: 307px;
     top: 1px;
@@ -153,7 +175,6 @@ h2 {
 }
 
 span {
-    width: 88px;
     height: 18px;
     left: 11px;
     top: 4px;
